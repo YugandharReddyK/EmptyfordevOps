@@ -1,0 +1,14 @@
+C:\HAL-Sperry\EmptyfordevOps\NgrDrillSheetApp\obj\Debug\net8.0\NgrDrillSheetApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\HAL-Sperry\EmptyfordevOps\NgrDrillSheetApp\obj\Debug\net8.0\NgrDrillSheetApp.AssemblyInfoInputs.cache
+C:\HAL-Sperry\EmptyfordevOps\NgrDrillSheetApp\obj\Debug\net8.0\NgrDrillSheetApp.AssemblyInfo.cs
+C:\HAL-Sperry\EmptyfordevOps\NgrDrillSheetApp\obj\Debug\net8.0\NgrDrillSheetApp.csproj.CoreCompileInputs.cache
+C:\HAL-Sperry\EmptyfordevOps\NgrDrillSheetApp\bin\Debug\net8.0\NgrDrillSheetApp.exe
+C:\HAL-Sperry\EmptyfordevOps\NgrDrillSheetApp\bin\Debug\net8.0\NgrDrillSheetApp.deps.json
+C:\HAL-Sperry\EmptyfordevOps\NgrDrillSheetApp\bin\Debug\net8.0\NgrDrillSheetApp.runtimeconfig.json
+C:\HAL-Sperry\EmptyfordevOps\NgrDrillSheetApp\bin\Debug\net8.0\NgrDrillSheetApp.dll
+C:\HAL-Sperry\EmptyfordevOps\NgrDrillSheetApp\bin\Debug\net8.0\NgrDrillSheetApp.pdb
+C:\HAL-Sperry\EmptyfordevOps\NgrDrillSheetApp\obj\Debug\net8.0\NgrDrillSheetApp.dll
+C:\HAL-Sperry\EmptyfordevOps\NgrDrillSheetApp\obj\Debug\net8.0\refint\NgrDrillSheetApp.dll
+C:\HAL-Sperry\EmptyfordevOps\NgrDrillSheetApp\obj\Debug\net8.0\NgrDrillSheetApp.pdb
+C:\HAL-Sperry\EmptyfordevOps\NgrDrillSheetApp\obj\Debug\net8.0\NgrDrillSheetApp.genruntimeconfig.cache
+C:\HAL-Sperry\EmptyfordevOps\NgrDrillSheetApp\obj\Debug\net8.0\ref\NgrDrillSheetApp.dll

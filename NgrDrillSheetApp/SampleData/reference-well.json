@@ -1,0 +1,28 @@
+{
+  "description": "Sample reference well – vertical to horizontal injector, 285° azimuth, lands at ~3000m MD.",
+  "headerText": "Well: REF-INJ-001\nField: Sample Basin\nDatum: MSL\nUnits: Metres",
+  "tieOnNorth": 0.0,
+  "tieOnEast": 0.0,
+  "tieOnTVD": 0.0,
+  "stations": [
+    { "measuredDepth":    0.00, "inclination":  0.00, "azimuth":   0.00 },
+    { "measuredDepth":  500.00, "inclination":  0.00, "azimuth":   0.00 },
+    { "measuredDepth": 1000.00, "inclination":  0.00, "azimuth":   0.00 },
+    { "measuredDepth": 1500.00, "inclination":  0.00, "azimuth":   0.00 },
+    { "measuredDepth": 2000.00, "inclination":  0.00, "azimuth":   0.00 },
+    { "measuredDepth": 2200.00, "inclination":  5.00, "azimuth": 285.00 },
+    { "measuredDepth": 2400.00, "inclination": 20.00, "azimuth": 285.00 },
+    { "measuredDepth": 2600.00, "inclination": 45.00, "azimuth": 285.00 },
+    { "measuredDepth": 2800.00, "inclination": 75.00, "azimuth": 285.00 },
+    { "measuredDepth": 2900.00, "inclination": 85.00, "azimuth": 285.00 },
+    { "measuredDepth": 3000.00, "inclination": 90.00, "azimuth": 285.00 },
+    { "measuredDepth": 3050.00, "inclination": 90.00, "azimuth": 285.00 },
+    { "measuredDepth": 3100.00, "inclination": 90.00, "azimuth": 285.00 },
+    { "measuredDepth": 3150.00, "inclination": 90.00, "azimuth": 285.00 },
+    { "measuredDepth": 3200.00, "inclination": 90.00, "azimuth": 285.00 },
+    { "measuredDepth": 3250.00, "inclination": 90.00, "azimuth": 285.00 },
+    { "measuredDepth": 3300.00, "inclination": 90.00, "azimuth": 285.00 },
+    { "measuredDepth": 3350.00, "inclination": 90.00, "azimuth": 285.00 },
+    { "measuredDepth": 3400.00, "inclination": 90.00, "azimuth": 285.00 }
+  ]
+}
