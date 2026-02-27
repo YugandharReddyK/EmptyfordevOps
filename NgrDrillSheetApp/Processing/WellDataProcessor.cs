@@ -52,11 +52,40 @@ public class WellDataProcessor
             return new List<SolutionRecord>();
         }
 
-        // Step 2: Sort by measured depth (edited MDMWD)
-        goodRecords.Sort((a, b) => a.EditedMdMwd.CompareTo(b.EditedMdMwd));
         Console.WriteLine($"  Processing {goodRecords.Count} Good records...");
 
-        // Step 3: Apply directional sensor offset interpolation if enabled
+        // Determine tie-on coordinates
+        double tieOnN = _refWell.TieOnNorth;
+        double tieOnE = _refWell.TieOnEast;
+        double tieOnTvd = _refWell.TieOnTVD;
+
+        if (_config.InterpolationEnabled && _config.DirSensorOffset != 0.0 && goodRecords.Count >= 2)
+        {
+            double md0 = goodRecords[0].EditedMdMwd;
+            double md1 = goodRecords[1].EditedMdMwd;
+
+            double ratio = (md1 - md0) != 0 ? _config.DirSensorOffset / (md1 - md0) : 0;
+
+            // TempTieOn0 = the fixed solution tie-on (GetSolnTieOn equivalent)
+            double n0 = _refWell.TieOnNorth;
+            double e0 = _refWell.TieOnEast;
+            double tvd0 = _refWell.TieOnTVD;
+
+            double[] delta = PositionCalculator.DeltaPosition(
+                md0, goodRecords[0].EditedInclination, goodRecords[0].EditedAzimuth,
+                md1, goodRecords[1].EditedInclination, goodRecords[1].EditedAzimuth
+                );
+            double n1 = n0 + delta[0];
+            double e1 = e0 + delta[1];
+            double tvd1 = tvd0 + delta[2];
+
+            tieOnN = n0 + ratio * (n1 - n0);
+            tieOnE = e0 + ratio * (e1 - e0);
+            tieOnTvd = tvd0 + ratio * (tvd1 - tvd0);
+        }
+
+        goodRecords.Sort((a, b) => a.EditedMdMwd.CompareTo(b.EditedMdMwd));
+
         if (_config.InterpolationEnabled && _config.DirSensorOffset != 0.0 && goodRecords.Count >= 2)
         {
             ApplyDirSensorInterpolation(goodRecords);
@@ -67,21 +96,6 @@ public class WellDataProcessor
 
         // Initialize position calculator
         var posCalc = new PositionCalculator(_refWell);
-
-        // Determine tie-on coordinates
-        double tieOnN = _refWell.TieOnNorth;
-        double tieOnE = _refWell.TieOnEast;
-        double tieOnTvd = _refWell.TieOnTVD;
-
-        // If interpolation is enabled, compute interpolated tie-on position
-        if (_config.InterpolationEnabled && _config.DirSensorOffset != 0.0 && goodRecords.Count >= 2)
-        {
-            double md0 = goodRecords[0].EditedMdMwd;
-            double md1 = goodRecords[1].EditedMdMwd;
-            double ratio = (md1 - md0) != 0 ? _config.DirSensorOffset / (md1 - md0) : 0;
-            // In the VBA, interpolation uses min curvature from soln tie-on
-            // Simplified: tie-on stays at ref well tie-on for console app
-        }
 
         // Step 4 & 5: Process QFC and position correlation per row
         var solutions = new List<SolutionRecord>(goodRecords.Count);
@@ -237,9 +251,9 @@ public class WellDataProcessor
             sol.PcoToMd = row.DepthTO;
             sol.PcoToInc = row.IncTO;
             sol.PcoToAzi = row.AzTO;
-            sol.PcoToNorth = row.NorthTO;
-            sol.PcoToEast = row.EastTO;
-            sol.PcoToTvd = row.VertTO;
+            sol.PcoToNorth = row.NorthCor;
+            sol.PcoToEast = row.EastCor;
+            sol.PcoToTvd = row.VertCor;
 
             // Pseudo-drill (reference well correlated)
             sol.PcoPsdMd = row.DepthI;

@@ -28,16 +28,7 @@ class Program
             return 1;
         }
 
-        string command = args[0].ToLowerInvariant();
-        var opts = ParseArgs(args);
-
-        return command switch
-        {
-            "process" => RunProcess(opts),
-            "export-raw" => RunExportRaw(opts),
-            "help" or "--help" or "-h" => PrintUsageReturn(),
-            _ => PrintUnknownCommand(command),
-        };
+        return 0;
     }
 
     // ========== Commands ==========
@@ -116,16 +107,40 @@ class Program
         foreach (var sol in solutions)
         {
             Console.WriteLine(
-                $"{sol.RecordNumber,-5} " +
-                $"{sol.MdMwd,8:F2} " +
-                $"{sol.QfcQFa.ToDisplayString(),-9} " +
-                $"{sol.QfcQFr.ToDisplayString(),-9} " +
-                $"{sol.QfcCFlag.ToCorrectionString(),-9} " +
-                $"{sol.PcoHS,8:F2} " +
-                $"{sol.PcoRS,8:F2} " +
-                $"{sol.PcoPsdMd,8:F2} " +
-                $"{sol.AziDivCon,-12} " +
-                $"{sol.IncDivCon,-12}");
+            $"{sol.RecordNumber,-5} " +
+            $"{sol.MdMwd,8:F2} " +
+            //$"{sol.QfcQFa.ToDisplayString(),-9} " +
+            //$"{sol.QfcQFr.ToDisplayString(),-9} " +
+            //$"{sol.QfcCFlag.ToCorrectionString(),-9} " +
+            //$"{sol.PcoHS,8:F2} " +
+            //$"{sol.PcoRS,8:F2} " +
+            // $"{sol.PcoToMd,8:F2} " +
+            //$"{sol.PcoToInc,8:F2} " +
+            //$"{sol.PcoToAzi,8:F2} " +
+            //$"{sol.PcoToNorth,8:F2} " +
+            //$"{sol.PcoToEast,8:F2} " +
+            //$"{sol.PcoToTvd,8:F2} " +
+            //$"{sol.PcoPsdMd,8:F2} " +
+            //$"{sol.PcoPsdInc,8:F2} " +
+            //$"{sol.PcoPsdAzi,8:F2} " +
+            //$"{sol.PcoPsdNorth,8:F2} " +
+            //$"{sol.PcoPsdEast,8:F2} " +
+            //$"{sol.PcoPsdTvd,8:F2} " +
+            //$"{sol.PcoMinDist,8:F2} " +
+            //$"{sol.PcoErrTotal,8:F2} " +
+            //$"{sol.PcoErrNorth,8:F2} " +
+            //$"{sol.PcoErrEast,8:F2} " +
+            //$"{sol.PcoErrTvd,8:F2} " +
+            //$"{sol.PcoMdBack,8:F2} " +
+            //$"{sol.PcoIncBack,8:F2} " +
+            //$"{sol.PcoAzBack,8:F2} " +
+            //$"{sol.AziRefDiff,8:F2} " +
+            //$"{sol.IncRefDiff,8:F2} " +
+            $"{sol.AziDivCon,-12} " +
+            $"{sol.IncDivCon,-12} " +
+            $"{sol.HsRefRef,-12} " +
+            $"{sol.RsRefRef,-12}"
+            );
         }
     }
 
@@ -169,25 +184,39 @@ class Program
 
     static void PrintUsage()
     {
-        Console.WriteLine("Usage:");
-        Console.WriteLine("  NgrDrillSheetApp process    --surveys <file.json> --ref-well <file.json> [options]");
-        Console.WriteLine("  NgrDrillSheetApp export-raw --surveys <file.json> --out <raw.json> [--all]");
-        Console.WriteLine("  NgrDrillSheetApp help");
-        Console.WriteLine();
-        Console.WriteLine("Commands:");
-        Console.WriteLine("  process      Import surveys + reference well, run QFC + position correlation,");
-        Console.WriteLine("               export full results to JSON.");
-        Console.WriteLine("  export-raw   Export survey records to JSON (Good records only, or --all).");
-        Console.WriteLine();
-        Console.WriteLine("Options:");
-        Console.WriteLine("  --surveys <file.json>   Survey input JSON file (required for all commands)");
-        Console.WriteLine("  --ref-well <file.json>  Reference well JSON file (required for process)");
-        Console.WriteLine("  --config <file.json>    Processing config JSON file (optional; uses defaults)");
-        Console.WriteLine("  --out <file.json>       Output file path (default: results.json)");
-        Console.WriteLine("  --all                   Include Bad/Unknown records in export-raw");
-        Console.WriteLine("  --bit-offset <meters>   Override RM bit offset for export-raw");
-        Console.WriteLine();
-        Console.WriteLine("Sample data files are provided in the SampleData/ folder.");
+
+        Console.WriteLine("Enter 1 for Processor,2 for export-raw json, 3 for help");
+        int input = int.Parse(Console.ReadLine());
+
+        string projectRoot = Path.GetFullPath(Path.Combine(
+       AppDomain.CurrentDomain.BaseDirectory, "..", "..", ".."));
+
+        string samplesDir = Path.Combine(projectRoot, "SampleData");
+        switch (input)
+        {
+            case 1:
+                string[] args1 = { "process",
+                "--surveys",  Path.Combine(samplesDir, "ngr-surveys.json"),
+                "--ref-well", Path.Combine(samplesDir, "reference-well.json"),
+                "--config",   Path.Combine(samplesDir, "config.json"),
+                "--out",      Path.Combine(samplesDir, "results.json") };
+                var opts1 = ParseArgs(args1);
+                RunProcess(opts1);
+                break;
+            case 2:
+                string[] args2 = { "export-raw",
+                "--surveys", Path.Combine(samplesDir, "ngr-surveys.json"),
+                "--out",     Path.Combine(samplesDir, "raw-surveys.json") };
+                var opts2 = ParseArgs(args2);
+                RunExportRaw(opts2);
+                break;
+            case 3:
+                PrintUsageReturn();
+                break;
+            default:
+                PrintUnknownCommand(input + "");
+                break;
+        }
     }
 
     static int PrintUsageReturn() { PrintUsage(); return 0; }

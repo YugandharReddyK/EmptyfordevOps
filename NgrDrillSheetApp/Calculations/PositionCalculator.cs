@@ -88,10 +88,21 @@ public class PositionCalculator
         row.RangeRS = -qfcDis * Math.Sin(qfcDir * MathHelper.Rad);
 
         // Position correlation for first station
-        var posC = CalcPosC(false, 0, tieOnNorth, tieOnEast, tieOnTvd, row.RangeHS, row.RangeRS);
+        var posC = CalcPosC(true, 0, tieOnNorth, tieOnEast, tieOnTvd, row.RangeHS, row.RangeRS);
         row.NorthCor = posC.NorthCor;
         row.EastCor = posC.EastCor;
         row.VertCor = posC.VertCor;
+        row.DepthI = posC.DepthI;
+        row.IncI = posC.IncI;
+        row.AzI = posC.AzI;
+        row.NorthI = posC.NorthI;
+        row.EastI = posC.EastI;
+        row.TvdI = posC.TvdI;
+        row.MinDist = posC.MinDist;
+        row.TotErr = posC.TotErr;
+        row.NErrCol = posC.NorthErr;
+        row.EErrCol = posC.EastErr;
+        row.VErrCol = posC.VertErr;
 
         _drillRows.Add(row);
     }
@@ -134,16 +145,24 @@ public class PositionCalculator
         // Position correlation (first pass) to get estimated position
         var posEst = CalcPosC(false, indexD, row.NorthMWD, row.EastMWD, row.VertMWD,
                               row.RangeHS, row.RangeRS);
+        double azTO;
+        if (posEst.BracketFound)
+        {
 
-        // Calculate tie-on azimuth
-        double azTO = MathHelper.Atan2(posEst.NorthCor - prev.NorthCor,
-                                        posEst.EastCor - prev.EastCor) * MathHelper.Deg;
-        if (azTO < 0.0) azTO += 360.0;
-
+            // Calculate tie-on azimuth
+            azTO = MathHelper.Atan2(posEst.NorthCor - prev.NorthCor,
+                                       posEst.EastCor - prev.EastCor) * MathHelper.Deg;
+            if (azTO < 0.0) azTO += 360.0;
+        }
+        else
+        {
+            azTO = MathHelper.Atan2(-prev.NorthCor, -prev.EastCor) * MathHelper.Deg;
+            if (azTO < 0.0) azTO += 360.0;
+        }
         // Minimum curvature with tie-on azimuth
         double azTOP = prev.AzTO;
         delPos = DeltaPosition(prev.DepthMWD, prev.IncMWD, azTOP,
-                               depthMWD, incMWD, azTO);
+                                   depthMWD, incMWD, azTO);
 
         row.DepthTO = depthMWD;
         row.IncTO = incMWD;
@@ -231,6 +250,7 @@ public class PositionCalculator
         double rangeHS, double rangeRS)
     {
         var result = new PositionCorrelationResult();
+        result.BracketFound = false;
         var stations = _refWell.Stations;
         if (stations.Count < 2) return result;
 
@@ -268,6 +288,7 @@ public class PositionCalculator
                 double refEastP = stationP.East;
                 double refVertP = stationP.TVD;
                 double refDepth = station.MeasuredDepth;
+                result.BracketFound = true;
 
                 double dirCP1 = Math.Sin(refIncP * MathHelper.Rad) * Math.Cos(refAzP * MathHelper.Rad);
                 double dirCP2 = Math.Sin(refIncP * MathHelper.Rad) * Math.Sin(refAzP * MathHelper.Rad);
@@ -375,6 +396,7 @@ public class PositionCalculator
                     index = 0;
                     fastSearch = false;
                     pConP = 0;
+                    pConC = 0;
                 }
                 else
                 {

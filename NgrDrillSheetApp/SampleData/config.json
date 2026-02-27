@@ -1,9 +1,9 @@
 {
   "description": "Processing configuration for the sample well.",
-  "md0": 2500.0,
-  "rmBitOffset": 15.24,
-  "dirSensorOffset": 0.0,
-  "interpolationEnabled": false,
+  "md0": 586.59,
+  "rmBitOffset": 0,
+  "dirSensorOffset": 4.58,
+  "interpolationEnabled": true,
   "hSectionBearing": 285.0,
   "qfcInterpTable": [
     { "rateB": 0.00, "factor": 1.00 },

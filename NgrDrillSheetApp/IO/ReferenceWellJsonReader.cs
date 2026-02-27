@@ -51,8 +51,10 @@ public class ReferenceWellJsonReader
         result.HeaderText = doc.HeaderText ?? string.Empty;
 
         // Compute cumulative North, East, TVD using minimum curvature
-        double prevMD = 0, prevInc = 0, prevAz = 0;
-        double cumNorth = 0, cumEast = 0, cumTvd = 0;
+        double prevMD = 0.0, prevInc = 0.0, prevAz = 0.0;
+        double cumNorth = doc.RefWellOriginNorth;
+        double cumEast = doc.RefWellOriginEast;
+        double cumTvd = doc.RefWellOriginTVD;
 
         for (int i = 0; i < doc.Stations.Count; i++)
         {
@@ -101,7 +103,6 @@ public class ReferenceWellJsonReader
             result.TieOnEast = first.East;
             result.TieOnTVD = first.TVD;
         }
-
         Console.WriteLine($"  Loaded {result.Stations.Count} reference well stations, TDP = {result.TDP:F2} m");
         return result;
     }
@@ -115,6 +116,9 @@ public class ReferenceWellJsonReader
         public double TieOnNorth { get; set; }
         public double TieOnEast { get; set; }
         public double TieOnTVD { get; set; }
+        public double RefWellOriginNorth { get; set; }
+        public double RefWellOriginEast { get; set; }
+        public double RefWellOriginTVD { get; set; }
         public List<RefWellStationDto> Stations { get; set; } = new();
     }
 

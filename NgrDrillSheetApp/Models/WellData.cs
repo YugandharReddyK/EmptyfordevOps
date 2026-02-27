@@ -124,4 +124,5 @@ public class PositionCorrelationResult
     public double NorthErr { get; set; }
     public double EastErr { get; set; }
     public double VertErr { get; set; }
+    public bool BracketFound { get; set; }
 }

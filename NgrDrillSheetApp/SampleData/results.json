@@ -1,467 +1,908 @@
 {
-  "processedAt": "2026-02-23T07:01:54.3362181Z",
+  "processedAt": "2026-02-27T06:37:31.3089647Z",
   "appVersion": "2.0 (migrated from VAFI10 VBA 1.9)",
   "config": {
-    "md0": 2500,
-    "rmBitOffset": 15.24,
-    "dirSensorOffset": 0,
-    "interpolationEnabled": false,
+    "md0": 586.59,
+    "rmBitOffset": 0,
+    "dirSensorOffset": 4.58,
+    "interpolationEnabled": true,
     "hSectionBearing": 285,
     "qfcTableEntries": 12
   },
   "referenceWellSummary": {
-    "stationCount": 19,
-    "totalDepthPoint": 3400,
-    "tieOnNorth": 0,
-    "tieOnEast": 0,
-    "tieOnTVD": 0
+    "stationCount": 142,
+    "totalDepthPoint": 1643,
+    "tieOnNorth": 152.67,
+    "tieOnEast": -161.2,
+    "tieOnTVD": 492.6
   },
   "surveySummary": {
-    "totalRecords": 10,
-    "goodRecords": 9,
-    "badRecords": 1,
-    "unknownRecords": 0
+    "totalRecords": 20,
+    "goodRecords": 18,
+    "badRecords": 0,
+    "unknownRecords": 2
   },
   "solutions": [
     {
-      "recordNumber": 1,
-      "fileId": "NGR_20250115_001.csv",
-      "timestamp": "2025-01-15T08:12:00Z",
-      "mdMwd": 3020.02,
-      "azimuth": 285.2,
-      "inclination": 89.5,
-      "distance": 12.3,
-      "direction": 178.4,
-      "hField": 22.5,
-      "toolAngle": 45.2,
-      "qfcDis": 12.3,
-      "qfcDir": 178.4,
+      "recordNumber": 16,
+      "fileId": "MANUAL_26-02-24_154224",
+      "timestamp": "2026-02-24T15:42:00Z",
+      "mdMwd": 204.58,
+      "azimuth": 19.542,
+      "inclination": 19.542,
+      "distance": 20,
+      "direction": 20,
+      "hField": 15,
+      "toolAngle": 12,
+      "qfcDis": 20,
+      "qfcDir": 20,
       "qfcCFlag": "INVALID",
       "qfcQFa": "Good",
       "qfcQFr": "Invalid",
-      "qfcQFt": "Bad",
+      "qfcQFt": "Marginal",
       "qfcInitGateOk": false,
       "qfcExecOk": true,
-      "pcoToMd": 3020.02,
-      "pcoToInc": 89.5,
-      "pcoToAzi": 285.2,
-      "pcoToNorth": 0,
-      "pcoToEast": 0,
-      "pcoToTvd": 0,
-      "pcoPsdMd": 0,
-      "pcoPsdInc": 0,
-      "pcoPsdAzi": 0,
-      "pcoPsdNorth": 0,
-      "pcoPsdEast": 0,
-      "pcoPsdTvd": 0,
-      "pcoHS": 12.2952,
-      "pcoRS": -0.3434,
-      "radialSeparation": 12.3,
-      "pcoMinDist": 0,
-      "pcoErrTotal": 0,
-      "pcoErrNorth": 0,
-      "pcoErrEast": 0,
-      "pcoErrTvd": 0,
-      "pcoMdBack": 3020.02,
-      "pcoIncBack": 89.65,
-      "pcoAzBack": 355.1,
-      "aziRefDiff": -74.8,
-      "incRefDiff": 89.5,
-      "aziDivCon": "Diverging",
+      "pcoToMd": 204.58,
+      "pcoToInc": 19.542,
+      "pcoToAzi": 19.542,
+      "pcoToNorth": 165.2533,
+      "pcoToEast": -155.0062,
+      "pcoToTvd": 524.1436,
+      "pcoPsdMd": 657.0877,
+      "pcoPsdInc": 78.0297,
+      "pcoPsdAzi": 286.4082,
+      "pcoPsdNorth": 172.9162,
+      "pcoPsdEast": -156.8131,
+      "pcoPsdTvd": 505.7584,
+      "pcoHS": -18.7939,
+      "pcoRS": -6.8404,
+      "radialSeparation": 20,
+      "pcoMinDist": 25.9853,
+      "pcoErrTotal": 35.7057,
+      "pcoErrNorth": -12.9011,
+      "pcoErrEast": -10.7623,
+      "pcoErrTvd": -31.506,
+      "pcoMdBack": 204.58,
+      "pcoIncBack": 93.956,
+      "pcoAzBack": 296.1514,
+      "aziRefDiff": 93.1338,
+      "incRefDiff": -58.4877,
+      "aziDivCon": "Converging",
       "incDivCon": "Diverging",
-      "hsRefRef": "Above",
+      "hsRefRef": "Below",
       "rsRefRef": "Left"
     },
     {
-      "recordNumber": 2,
-      "fileId": "NGR_20250115_001.csv",
-      "timestamp": "2025-01-15T08:24:00Z",
-      "mdMwd": 3030.32,
-      "azimuth": 285,
-      "inclination": 89.8,
-      "distance": 11.8,
-      "direction": 175.1,
-      "hField": 22.3,
-      "toolAngle": 47.8,
-      "qfcDis": 11.8,
-      "qfcDir": 175.1,
+      "recordNumber": 18,
+      "fileId": "MANUAL_26-02-24_165020",
+      "timestamp": "2026-02-24T16:50:00Z",
+      "mdMwd": 254.58,
+      "azimuth": 15.458,
+      "inclination": 16.374,
+      "distance": 15,
+      "direction": 15,
+      "hField": 12,
+      "toolAngle": 12,
+      "qfcDis": 15,
+      "qfcDir": 15,
       "qfcCFlag": "INVALID",
       "qfcQFa": "Good",
       "qfcQFr": "Invalid",
-      "qfcQFt": "Bad",
+      "qfcQFt": "Marginal",
       "qfcInitGateOk": false,
       "qfcExecOk": true,
-      "pcoToMd": 3030.32,
-      "pcoToInc": 89.8,
-      "pcoToAzi": 355.1,
-      "pcoToNorth": 7.4261,
-      "pcoToEast": -6.198,
-      "pcoToTvd": 0.0721,
-      "pcoPsdMd": 0.0721,
-      "pcoPsdInc": 0,
-      "pcoPsdAzi": 0,
-      "pcoPsdNorth": 0,
-      "pcoPsdEast": 0,
-      "pcoPsdTvd": 0.0721,
-      "pcoHS": 11.7569,
-      "pcoRS": -1.0079,
-      "radialSeparation": 11.8,
-      "pcoMinDist": 9.6728,
-      "pcoErrTotal": 6.7597,
-      "pcoErrNorth": -4.3308,
-      "pcoErrEast": -5.1901,
-      "pcoErrTvd": -0,
-      "pcoMdBack": 3033.0224,
-      "pcoIncBack": 89.6965,
-      "pcoAzBack": 41.813,
-      "aziRefDiff": -4.9,
-      "incRefDiff": 89.8,
-      "aziDivCon": "Diverging",
+      "pcoToMd": 254.58,
+      "pcoToInc": 16.374,
+      "pcoToAzi": 304.2127,
+      "pcoToNorth": 172.2694,
+      "pcoToEast": -169.2954,
+      "pcoToTvd": 523.0427,
+      "pcoPsdMd": 672.266,
+      "pcoPsdInc": 78.7186,
+      "pcoPsdAzi": 282.951,
+      "pcoPsdNorth": 176.6882,
+      "pcoPsdEast": -171.1876,
+      "pcoPsdTvd": 508.8338,
+      "pcoHS": -14.4889,
+      "pcoRS": -3.8823,
+      "radialSeparation": 15,
+      "pcoMinDist": 64.7848,
+      "pcoErrTotal": 50.7393,
+      "pcoErrNorth": 4.9731,
+      "pcoErrEast": 11.221,
+      "pcoErrTvd": 49.2324,
+      "pcoMdBack": 220.6713,
+      "pcoIncBack": 86.3777,
+      "pcoAzBack": 285.7717,
+      "aziRefDiff": 21.2617,
+      "incRefDiff": -62.3446,
+      "aziDivCon": "Converging",
       "incDivCon": "Diverging",
-      "hsRefRef": "Above",
+      "hsRefRef": "Below",
       "rsRefRef": "Left"
     },
     {
-      "recordNumber": 3,
-      "fileId": "NGR_20250115_002.csv",
-      "timestamp": "2025-01-15T08:36:00Z",
-      "mdMwd": 3040.72,
-      "azimuth": 284.7,
-      "inclination": 90.1,
-      "distance": 13.1,
-      "direction": 182.3,
-      "hField": 21.9,
-      "toolAngle": 50.1,
-      "qfcDis": 13.1,
-      "qfcDir": 182.3,
+      "recordNumber": 15,
+      "fileId": "MANUAL_26-02-24_151732",
+      "timestamp": "2026-02-24T15:17:00Z",
+      "mdMwd": 304.58,
+      "azimuth": 20.687,
+      "inclination": 30.458,
+      "distance": 20,
+      "direction": 30,
+      "hField": 15,
+      "toolAngle": 13,
+      "qfcDis": 20,
+      "qfcDir": 30,
       "qfcCFlag": "INVALID",
       "qfcQFa": "Good",
       "qfcQFr": "Invalid",
-      "qfcQFt": "Bad",
+      "qfcQFt": "Marginal",
       "qfcInitGateOk": false,
       "qfcExecOk": true,
-      "pcoToMd": 3040.72,
-      "pcoToInc": 90.1,
-      "pcoToAzi": 49.0129,
-      "pcoToNorth": 21.044,
-      "pcoToEast": 2.755,
-      "pcoToTvd": 0.0819,
-      "pcoPsdMd": 0.0819,
-      "pcoPsdInc": 0,
-      "pcoPsdAzi": 0,
-      "pcoPsdNorth": 0,
-      "pcoPsdEast": 0,
-      "pcoPsdTvd": 0.0819,
-      "pcoHS": 13.0894,
-      "pcoRS": 0.5257,
-      "radialSeparation": 13.1,
-      "pcoMinDist": 21.2236,
-      "pcoErrTotal": 8.2611,
-      "pcoErrNorth": 7.9546,
-      "pcoErrEast": 2.2293,
-      "pcoErrTvd": 0,
-      "pcoMdBack": 3035.157,
-      "pcoIncBack": 84.8024,
-      "pcoAzBack": 287.799,
-      "aziRefDiff": 49.0129,
-      "incRefDiff": 90.1,
+      "pcoToMd": 304.58,
+      "pcoToInc": 30.458,
+      "pcoToAzi": 266.5409,
+      "pcoToNorth": 170.9266,
+      "pcoToEast": -195.4714,
+      "pcoToTvd": 530.7467,
+      "pcoPsdMd": 699.1523,
+      "pcoPsdInc": 79.8384,
+      "pcoPsdAzi": 277.3388,
+      "pcoPsdNorth": 181.235,
+      "pcoPsdEast": -197.2247,
+      "pcoPsdTvd": 513.6979,
+      "pcoHS": -17.3205,
+      "pcoRS": -10,
+      "radialSeparation": 20,
+      "pcoMinDist": 56.4075,
+      "pcoErrTotal": 39.293,
+      "pcoErrNorth": 4.5734,
+      "pcoErrEast": 7.5098,
+      "pcoErrTvd": 38.2965,
+      "pcoMdBack": 247.9948,
+      "pcoIncBack": 74.6967,
+      "pcoAzBack": 265.5877,
+      "aziRefDiff": -10.798,
+      "incRefDiff": -49.3804,
       "aziDivCon": "Diverging",
       "incDivCon": "Diverging",
-      "hsRefRef": "Above",
-      "rsRefRef": "Right"
-    },
-    {
-      "recordNumber": 4,
-      "fileId": "NGR_20250115_002.csv",
-      "timestamp": "2025-01-15T08:48:00Z",
-      "mdMwd": 3051.02,
-      "azimuth": 285.4,
-      "inclination": 89.7,
-      "distance": 12.8,
-      "direction": 176.9,
-      "hField": 22.6,
-      "toolAngle": 44.5,
-      "qfcDis": 12.8,
-      "qfcDir": 176.9,
-      "qfcCFlag": "INVALID",
-      "qfcQFa": "Good",
-      "qfcQFr": "Invalid",
-      "qfcQFt": "Bad",
-      "qfcInitGateOk": false,
-      "qfcExecOk": true,
-      "pcoToMd": 3051.02,
-      "pcoToInc": 89.7,
-      "pcoToAzi": 255.8003,
-      "pcoToNorth": 19.7311,
-      "pcoToEast": -2.9452,
-      "pcoToTvd": 0.1384,
-      "pcoPsdMd": 0.1384,
-      "pcoPsdInc": 0,
-      "pcoPsdAzi": 0,
-      "pcoPsdNorth": 0,
-      "pcoPsdEast": 0,
-      "pcoPsdTvd": 0.1384,
-      "pcoHS": 12.7813,
-      "pcoRS": -0.6922,
-      "radialSeparation": 12.8,
-      "pcoMinDist": 19.9497,
-      "pcoErrTotal": 7.3059,
-      "pcoErrNorth": 6.9498,
-      "pcoErrEast": -2.253,
-      "pcoErrTvd": 0,
-      "pcoMdBack": 3036.4236,
-      "pcoIncBack": 67.9871,
-      "pcoAzBack": 359.6864,
-      "aziRefDiff": -104.1997,
-      "incRefDiff": 89.7,
-      "aziDivCon": "Diverging",
-      "incDivCon": "Diverging",
-      "hsRefRef": "Above",
+      "hsRefRef": "Below",
       "rsRefRef": "Left"
     },
     {
-      "recordNumber": 6,
-      "fileId": "NGR_20250115_003.csv",
-      "timestamp": "2025-01-15T09:12:00Z",
-      "mdMwd": 3061.42,
-      "azimuth": 285.6,
-      "inclination": 89.9,
-      "distance": 13.4,
-      "direction": 180.5,
-      "hField": 22.8,
-      "toolAngle": 42.9,
-      "qfcDis": 13.4,
-      "qfcDir": 180.5,
+      "recordNumber": 17,
+      "fileId": "MANUAL_26-02-24_155500",
+      "timestamp": "2026-02-24T15:55:00Z",
+      "mdMwd": 504.58,
+      "azimuth": 49.084,
+      "inclination": 49.084,
+      "distance": 50,
+      "direction": 50,
+      "hField": 10,
+      "toolAngle": 10,
+      "qfcDis": 50,
+      "qfcDir": 50,
       "qfcCFlag": "INVALID",
       "qfcQFa": "Good",
       "qfcQFr": "Invalid",
-      "qfcQFt": "Bad",
+      "qfcQFt": "Good",
       "qfcInitGateOk": false,
       "qfcExecOk": true,
-      "pcoToMd": 3061.42,
-      "pcoToInc": 89.9,
-      "pcoToAzi": 52.6186,
-      "pcoToNorth": 19.4835,
-      "pcoToEast": -3.9306,
-      "pcoToTvd": 0.2677,
-      "pcoPsdMd": 0.2677,
-      "pcoPsdInc": 0,
-      "pcoPsdAzi": 0,
-      "pcoPsdNorth": 0,
-      "pcoPsdEast": 0,
-      "pcoPsdTvd": 0.2677,
-      "pcoHS": 13.3995,
-      "pcoRS": 0.1169,
-      "radialSeparation": 13.4,
-      "pcoMinDist": 19.876,
-      "pcoErrTotal": 7.3074,
-      "pcoErrNorth": 6.084,
-      "pcoErrEast": -4.0475,
-      "pcoErrTvd": 0,
-      "pcoMdBack": 3037.5548,
-      "pcoIncBack": 80.7613,
-      "pcoAzBack": 99.7783,
-      "aziRefDiff": 52.6186,
-      "incRefDiff": 89.9,
+      "pcoToMd": 504.58,
+      "pcoToInc": 49.084,
+      "pcoToAzi": 258.6019,
+      "pcoToNorth": 145.0382,
+      "pcoToEast": -323.6841,
+      "pcoToTvd": 553.6443,
+      "pcoPsdMd": 830.3943,
+      "pcoPsdInc": 88.6731,
+      "pcoPsdAzi": 264.9684,
+      "pcoPsdNorth": 183.1276,
+      "pcoPsdEast": -327.7848,
+      "pcoPsdTvd": 521.5135,
+      "pcoHS": -32.1394,
+      "pcoRS": -38.3022,
+      "radialSeparation": 50,
+      "pcoMinDist": 165.316,
+      "pcoErrTotal": 130.4945,
+      "pcoErrNorth": 7.7243,
+      "pcoErrEast": 2.3485,
+      "pcoErrTvd": 130.2446,
+      "pcoMdBack": 384.3576,
+      "pcoIncBack": 89.7776,
+      "pcoAzBack": 279.333,
+      "aziRefDiff": -6.3665,
+      "incRefDiff": -39.5891,
       "aziDivCon": "Diverging",
       "incDivCon": "Diverging",
-      "hsRefRef": "Above",
-      "rsRefRef": "Right"
-    },
-    {
-      "recordNumber": 7,
-      "fileId": "NGR_20250115_004.csv",
-      "timestamp": "2025-01-15T09:24:00Z",
-      "mdMwd": 3071.82,
-      "azimuth": 285.1,
-      "inclination": 90.2,
-      "distance": 12,
-      "direction": 179.8,
-      "hField": 21.7,
-      "toolAngle": 48.6,
-      "qfcDis": 12,
-      "qfcDir": 179.8,
-      "qfcCFlag": "INVALID",
-      "qfcQFa": "Good",
-      "qfcQFr": "Invalid",
-      "qfcQFt": "Bad",
-      "qfcInitGateOk": false,
-      "qfcExecOk": true,
-      "pcoToMd": 3071.82,
-      "pcoToInc": 90.2,
-      "pcoToAzi": 186.4743,
-      "pcoToNorth": 9.3603,
-      "pcoToEast": 7.2428,
-      "pcoToTvd": 0.2494,
-      "pcoPsdMd": 0.2494,
-      "pcoPsdInc": 0,
-      "pcoPsdAzi": 0,
-      "pcoPsdNorth": 0,
-      "pcoPsdEast": 0,
-      "pcoPsdTvd": 0.2494,
-      "pcoHS": 11.9999,
-      "pcoRS": -0.0419,
-      "radialSeparation": 12,
-      "pcoMinDist": 11.8353,
-      "pcoErrTotal": 7.7482,
-      "pcoErrNorth": -2.6397,
-      "pcoErrEast": 7.2847,
-      "pcoErrTvd": 0,
-      "pcoMdBack": 3039.038,
-      "pcoIncBack": 89.5485,
-      "pcoAzBack": 218.1566,
-      "aziRefDiff": -173.5257,
-      "incRefDiff": 90.2,
-      "aziDivCon": "Diverging",
-      "incDivCon": "Diverging",
-      "hsRefRef": "Above",
+      "hsRefRef": "Below",
       "rsRefRef": "Left"
     },
     {
-      "recordNumber": 8,
-      "fileId": "NGR_20250115_004.csv",
-      "timestamp": "2025-01-15T09:36:00Z",
-      "mdMwd": 3082.22,
-      "azimuth": 286,
-      "inclination": 89.4,
-      "distance": 14.2,
-      "direction": 174.3,
-      "hField": 23.1,
-      "toolAngle": 43.1,
-      "qfcDis": 14.2,
-      "qfcDir": 174.3,
+      "recordNumber": 19,
+      "fileId": "MANUAL_26-02-24_183159",
+      "timestamp": "2026-02-24T18:31:00Z",
+      "mdMwd": 604.58,
+      "azimuth": 36.1872,
+      "inclination": 31.5297,
+      "distance": 30,
+      "direction": 30,
+      "hField": 25,
+      "toolAngle": 60,
+      "qfcDis": 30,
+      "qfcDir": 30,
       "qfcCFlag": "INVALID",
       "qfcQFa": "Good",
       "qfcQFr": "Invalid",
       "qfcQFt": "Bad",
       "qfcInitGateOk": false,
       "qfcExecOk": true,
-      "pcoToMd": 3082.22,
-      "pcoToInc": 89.4,
-      "pcoToAzi": 327.2789,
-      "pcoToNorth": 10.1891,
-      "pcoToEast": -7.8067,
-      "pcoToTvd": 0.3324,
-      "pcoPsdMd": 0.3324,
-      "pcoPsdInc": 0,
-      "pcoPsdAzi": 0,
-      "pcoPsdNorth": 0,
-      "pcoPsdEast": 0,
-      "pcoPsdTvd": 0.3324,
-      "pcoHS": 14.1298,
-      "pcoRS": -1.4103,
-      "radialSeparation": 14.2,
-      "pcoMinDist": 12.836,
-      "pcoErrTotal": 7.5128,
-      "pcoErrNorth": -3.9407,
-      "pcoErrEast": -6.3964,
-      "pcoErrTvd": 0,
-      "pcoMdBack": 3041.5978,
-      "pcoIncBack": 73.534,
-      "pcoAzBack": 72.8885,
-      "aziRefDiff": -32.7211,
-      "incRefDiff": 89.4,
-      "aziDivCon": "Diverging",
+      "pcoToMd": 604.58,
+      "pcoToInc": 31.5297,
+      "pcoToAzi": 289.3197,
+      "pcoToNorth": 166.6241,
+      "pcoToEast": -385.3716,
+      "pcoToTvd": 548.4281,
+      "pcoPsdMd": 887.4288,
+      "pcoPsdInc": 90.3026,
+      "pcoPsdAzi": 271.9188,
+      "pcoPsdNorth": 181.6111,
+      "pcoPsdEast": -384.7322,
+      "pcoPsdTvd": 522.4477,
+      "pcoHS": -25.9808,
+      "pcoRS": -15,
+      "radialSeparation": 30,
+      "pcoMinDist": 113.5568,
+      "pcoErrTotal": 84.4187,
+      "pcoErrNorth": -20.3815,
+      "pcoErrEast": -1.1157,
+      "pcoErrTvd": 81.9137,
+      "pcoMdBack": 449.984,
+      "pcoIncBack": 95.0896,
+      "pcoAzBack": 284.9398,
+      "aziRefDiff": 17.4009,
+      "incRefDiff": -58.7729,
+      "aziDivCon": "Converging",
       "incDivCon": "Diverging",
-      "hsRefRef": "Above",
+      "hsRefRef": "Below",
       "rsRefRef": "Left"
     },
     {
       "recordNumber": 9,
-      "fileId": "NGR_20250115_005.csv",
-      "timestamp": "2025-01-15T09:48:00Z",
-      "mdMwd": 3092.62,
-      "azimuth": 285.3,
-      "inclination": 90,
-      "distance": 13,
-      "direction": 181.2,
-      "hField": 22.4,
-      "toolAngle": 46.4,
-      "qfcDis": 13,
-      "qfcDir": 181.2,
-      "qfcCFlag": "INVALID",
+      "fileId": "NGR_190428174721_0.csv",
+      "timestamp": "2019-04-28T17:47:00Z",
+      "mdMwd": 781.8,
+      "azimuth": 269.9174,
+      "inclination": 89.0806,
+      "distance": 9.91,
+      "direction": 22.77,
+      "hField": 11.6,
+      "toolAngle": 4.72,
+      "qfcDis": 9.91,
+      "qfcDir": 22.77,
+      "qfcCFlag": "Normal",
       "qfcQFa": "Good",
       "qfcQFr": "Invalid",
-      "qfcQFt": "Bad",
-      "qfcInitGateOk": false,
+      "qfcQFt": "Good",
+      "qfcInitGateOk": true,
       "qfcExecOk": true,
-      "pcoToMd": 3092.62,
-      "pcoToInc": 90,
-      "pcoToAzi": 123.9465,
-      "pcoToNorth": 19.3386,
-      "pcoToEast": 3.9125,
-      "pcoToTvd": 0.5253,
-      "pcoPsdMd": 0.5253,
-      "pcoPsdInc": 0,
-      "pcoPsdAzi": 0,
-      "pcoPsdNorth": 0,
-      "pcoPsdEast": 0,
-      "pcoPsdTvd": 0.5253,
-      "pcoHS": 12.9971,
-      "pcoRS": 0.2723,
-      "radialSeparation": 13,
-      "pcoMinDist": 19.7305,
-      "pcoErrTotal": 7.3121,
-      "pcoErrNorth": 6.3415,
-      "pcoErrEast": 3.6403,
-      "pcoErrTvd": 0,
-      "pcoMdBack": 3043.6357,
-      "pcoIncBack": 82.9685,
-      "pcoAzBack": 216.8514,
-      "aziRefDiff": 123.9465,
-      "incRefDiff": 90,
-      "aziDivCon": "Diverging",
+      "pcoToMd": 781.8,
+      "pcoToInc": 89.0806,
+      "pcoToAzi": 275.2465,
+      "pcoToNorth": 179.6406,
+      "pcoToEast": -531.5774,
+      "pcoToTvd": 532.5668,
+      "pcoPsdMd": 1034.3469,
+      "pcoPsdInc": 89.3213,
+      "pcoPsdAzi": 270.9406,
+      "pcoPsdNorth": 183.4773,
+      "pcoPsdEast": -531.6227,
+      "pcoPsdTvd": 523.4298,
+      "pcoHS": -9.1377,
+      "pcoRS": -3.8355,
+      "radialSeparation": 9.91,
+      "pcoMinDist": 109.8117,
+      "pcoErrTotal": 101.1172,
+      "pcoErrNorth": 12.6978,
+      "pcoErrEast": 1.3968,
+      "pcoErrTvd": 100.307,
+      "pcoMdBack": 597.6459,
+      "pcoIncBack": 95.2112,
+      "pcoAzBack": 273.5969,
+      "aziRefDiff": 4.3059,
+      "incRefDiff": -0.2408,
+      "aziDivCon": "Converging",
       "incDivCon": "Diverging",
-      "hsRefRef": "Above",
-      "rsRefRef": "Right"
+      "hsRefRef": "Below",
+      "rsRefRef": "Left"
     },
     {
-      "recordNumber": 10,
-      "fileId": "NGR_20250115_005.csv",
-      "timestamp": "2025-01-15T10:00:00Z",
-      "mdMwd": 3103.02,
-      "azimuth": 285.5,
-      "inclination": 89.6,
-      "distance": 12.6,
-      "direction": 177.6,
-      "hField": 22.7,
-      "toolAngle": 44.8,
-      "qfcDis": 12.6,
-      "qfcDir": 177.6,
+      "recordNumber": 8,
+      "fileId": "NGR_190428174341_0.csv",
+      "timestamp": "2019-04-28T17:43:00Z",
+      "mdMwd": 795.61,
+      "azimuth": 271.4162,
+      "inclination": 89.1775,
+      "distance": 8.3,
+      "direction": 22.18,
+      "hField": 12.1,
+      "toolAngle": 2.53,
+      "qfcDis": 8.3,
+      "qfcDir": 22.18,
+      "qfcCFlag": "Normal",
+      "qfcQFa": "Good",
+      "qfcQFr": "Good",
+      "qfcQFt": "Good",
+      "qfcInitGateOk": true,
+      "qfcExecOk": true,
+      "pcoToMd": 795.61,
+      "pcoToInc": 89.1775,
+      "pcoToAzi": 273.4609,
+      "pcoToNorth": 180.4738,
+      "pcoToEast": -545.3707,
+      "pcoToTvd": 531.3284,
+      "pcoPsdMd": 1048.213,
+      "pcoPsdInc": 89.0356,
+      "pcoPsdAzi": 270.2507,
+      "pcoPsdNorth": 183.6078,
+      "pcoPsdEast": -545.4864,
+      "pcoPsdTvd": 523.6437,
+      "pcoHS": -7.6858,
+      "pcoRS": -3.1334,
+      "radialSeparation": 8.3,
+      "pcoMinDist": 9.5892,
+      "pcoErrTotal": 1.4644,
+      "pcoErrNorth": 0.2149,
+      "pcoErrEast": 0.0253,
+      "pcoErrTvd": 1.4483,
+      "pcoMdBack": 611.5235,
+      "pcoIncBack": 92.8817,
+      "pcoAzBack": 272.9902,
+      "aziRefDiff": 3.2102,
+      "incRefDiff": 0.1419,
+      "aziDivCon": "Converging",
+      "incDivCon": "Converging",
+      "hsRefRef": "Below",
+      "rsRefRef": "Left"
+    },
+    {
+      "recordNumber": 7,
+      "fileId": "NGR_190428173925_0.csv",
+      "timestamp": "2019-04-28T17:39:00Z",
+      "mdMwd": 809.17,
+      "azimuth": 161.3257,
+      "inclination": 59.0907,
+      "distance": 7.79,
+      "direction": 19.47,
+      "hField": 12.2,
+      "toolAngle": 1.11,
+      "qfcDis": 7.79,
+      "qfcDir": 19.47,
+      "qfcCFlag": "Normal",
+      "qfcQFa": "Good",
+      "qfcQFr": "Good",
+      "qfcQFt": "Good",
+      "qfcInitGateOk": true,
+      "qfcExecOk": true,
+      "pcoToMd": 809.17,
+      "pcoToInc": 59.0907,
+      "pcoToAzi": 272.5587,
+      "pcoToNorth": 181.0495,
+      "pcoToEast": -558.2584,
+      "pcoToTvd": 531.1485,
+      "pcoPsdMd": 1061.0027,
+      "pcoPsdInc": 89.8253,
+      "pcoPsdAzi": 270.1294,
+      "pcoPsdNorth": 183.6461,
+      "pcoPsdEast": -558.275,
+      "pcoPsdTvd": 523.804,
+      "pcoHS": -7.3445,
+      "pcoRS": -2.5965,
+      "radialSeparation": 7.79,
+      "pcoMinDist": 11.4624,
+      "pcoErrTotal": 3.8462,
+      "pcoErrNorth": 0.1091,
+      "pcoErrEast": 0.012,
+      "pcoErrTvd": 3.8447,
+      "pcoMdBack": 625.0529,
+      "pcoIncBack": 62.648,
+      "pcoAzBack": 260.5106,
+      "aziRefDiff": 2.4293,
+      "incRefDiff": -30.7346,
+      "aziDivCon": "Converging",
+      "incDivCon": "Diverging",
+      "hsRefRef": "Below",
+      "rsRefRef": "Left"
+    },
+    {
+      "recordNumber": 13,
+      "fileId": "MANUAL_26-02-24_145357",
+      "timestamp": "2026-02-24T14:53:00Z",
+      "mdMwd": 819.58,
+      "azimuth": 22.6402,
+      "inclination": 24.2567,
+      "distance": 20,
+      "direction": 20,
+      "hField": 15,
+      "toolAngle": 15,
+      "qfcDis": 20,
+      "qfcDir": 20,
+      "qfcCFlag": "INVALID",
+      "qfcQFa": "Good",
+      "qfcQFr": "Invalid",
+      "qfcQFt": "Marginal",
+      "qfcInitGateOk": false,
+      "qfcExecOk": true,
+      "pcoToMd": 819.58,
+      "pcoToInc": 24.2567,
+      "pcoToAzi": 238.0666,
+      "pcoToNorth": 176.8064,
+      "pcoToEast": -564.8178,
+      "pcoToTvd": 542.5872,
+      "pcoPsdMd": 1067.4766,
+      "pcoPsdInc": 90.2898,
+      "pcoPsdAzi": 269.7815,
+      "pcoPsdNorth": 183.6471,
+      "pcoPsdEast": -564.7488,
+      "pcoPsdTvd": 523.7936,
+      "pcoHS": -18.7939,
+      "pcoRS": -6.8404,
+      "radialSeparation": 20,
+      "pcoMinDist": 15.518,
+      "pcoErrTotal": 4.9322,
+      "pcoErrNorth": 3.2703,
+      "pcoErrEast": 0.0062,
+      "pcoErrTvd": -3.692,
+      "pcoMdBack": 638.9266,
+      "pcoIncBack": 39.9129,
+      "pcoAzBack": 237.3775,
+      "aziRefDiff": -31.7149,
+      "incRefDiff": -66.0331,
+      "aziDivCon": "Diverging",
+      "incDivCon": "Diverging",
+      "hsRefRef": "Below",
+      "rsRefRef": "Left"
+    },
+    {
+      "recordNumber": 20,
+      "fileId": "MANUAL_26-02-27_111426",
+      "timestamp": "2026-02-24T16:50:00Z",
+      "mdMwd": 904.58,
+      "azimuth": 72.6894,
+      "inclination": 98.8366,
+      "distance": 60,
+      "direction": 45,
+      "hField": 24,
+      "toolAngle": 42,
+      "qfcDis": 60,
+      "qfcDir": 45,
       "qfcCFlag": "INVALID",
       "qfcQFa": "Good",
       "qfcQFr": "Invalid",
       "qfcQFt": "Bad",
       "qfcInitGateOk": false,
       "qfcExecOk": true,
-      "pcoToMd": 3103.02,
-      "pcoToInc": 89.6,
-      "pcoToAzi": 242.9636,
-      "pcoToNorth": 4.3845,
-      "pcoToEast": -0.2476,
-      "pcoToTvd": 0.5846,
-      "pcoPsdMd": 0.5846,
-      "pcoPsdInc": 0,
-      "pcoPsdAzi": 0,
-      "pcoPsdNorth": 0,
-      "pcoPsdEast": 0,
-      "pcoPsdTvd": 0.5846,
-      "pcoHS": 12.5889,
-      "pcoRS": -0.5276,
-      "radialSeparation": 12.6,
-      "pcoMinDist": 4.3915,
-      "pcoErrTotal": 8.2092,
-      "pcoErrNorth": -8.2044,
-      "pcoErrEast": 0.2801,
-      "pcoErrTvd": 0,
-      "pcoMdBack": 3044.5357,
-      "pcoIncBack": 86.2184,
-      "pcoAzBack": 242.9636,
-      "aziRefDiff": -117.0364,
-      "incRefDiff": 89.6,
+      "pcoToMd": 904.58,
+      "pcoToInc": 98.8366,
+      "pcoToAzi": 238.2221,
+      "pcoToNorth": 140.134,
+      "pcoToEast": -624.0853,
+      "pcoToTvd": 566.4837,
+      "pcoPsdMd": 1127.3317,
+      "pcoPsdInc": 89.3442,
+      "pcoPsdAzi": 269.9758,
+      "pcoPsdNorth": 182.5602,
+      "pcoPsdEast": -624.5889,
+      "pcoPsdTvd": 524.0601,
+      "pcoHS": -42.4264,
+      "pcoRS": -42.4264,
+      "radialSeparation": 60,
+      "pcoMinDist": 70.4462,
+      "pcoErrTotal": 13.803,
+      "pcoErrNorth": -0.0108,
+      "pcoErrEast": 0.158,
+      "pcoErrTvd": 13.8021,
+      "pcoMdBack": 713.0684,
+      "pcoIncBack": 76.8112,
+      "pcoAzBack": 248.1502,
+      "aziRefDiff": -31.7537,
+      "incRefDiff": 9.4925,
+      "aziDivCon": "Diverging",
+      "incDivCon": "Converging",
+      "hsRefRef": "Below",
+      "rsRefRef": "Left"
+    },
+    {
+      "recordNumber": 6,
+      "fileId": "NGR_190428164323_0.csv",
+      "timestamp": "2019-04-28T16:43:00Z",
+      "mdMwd": 1150.18,
+      "azimuth": 267.8492,
+      "inclination": 89.9895,
+      "distance": 9.15,
+      "direction": 46.24,
+      "hField": 5.2,
+      "toolAngle": 2.31,
+      "qfcDis": 9.15,
+      "qfcDir": 46.24,
+      "qfcCFlag": "INVALID",
+      "qfcQFa": "Good",
+      "qfcQFr": "Invalid",
+      "qfcQFt": "Good",
+      "qfcInitGateOk": false,
+      "qfcExecOk": true,
+      "pcoToMd": 1150.18,
+      "pcoToInc": 89.9895,
+      "pcoToAzi": 281.6109,
+      "pcoToNorth": 182.7527,
+      "pcoToEast": -856.6362,
+      "pcoToTvd": 531.169,
+      "pcoPsdMd": 1359.3834,
+      "pcoPsdInc": 89.2213,
+      "pcoPsdAzi": 271.932,
+      "pcoPsdNorth": 189.3604,
+      "pcoPsdEast": -856.4994,
+      "pcoPsdTvd": 524.8411,
+      "pcoHS": -6.3285,
+      "pcoRS": -6.6085,
+      "radialSeparation": 9.15,
+      "pcoMinDist": 93.1034,
+      "pcoErrTotal": 85.3204,
+      "pcoErrNorth": -83.8627,
+      "pcoErrEast": -2.6183,
+      "pcoErrTvd": 15.4839,
+      "pcoMdBack": 953.4551,
+      "pcoIncBack": 89.9663,
+      "pcoAzBack": 274.2621,
+      "aziRefDiff": 9.6789,
+      "incRefDiff": 0.7682,
+      "aziDivCon": "Converging",
+      "incDivCon": "Converging",
+      "hsRefRef": "Below",
+      "rsRefRef": "Left"
+    },
+    {
+      "recordNumber": 5,
+      "fileId": "NGR_190428163914_0.csv",
+      "timestamp": "2019-04-28T16:39:00Z",
+      "mdMwd": 1163.16,
+      "azimuth": 269.3729,
+      "inclination": 89.3951,
+      "distance": 8.77,
+      "direction": 44.33,
+      "hField": 5,
+      "toolAngle": 4.28,
+      "qfcDis": 8.77,
+      "qfcDir": 44.33,
+      "qfcCFlag": "INVALID",
+      "qfcQFa": "Good",
+      "qfcQFr": "Invalid",
+      "qfcQFt": "Good",
+      "qfcInitGateOk": false,
+      "qfcExecOk": true,
+      "pcoToMd": 1163.16,
+      "pcoToInc": 89.3951,
+      "pcoToAzi": 273.9556,
+      "pcoToNorth": 183.6385,
+      "pcoToEast": -869.5115,
+      "pcoToTvd": 531.2799,
+      "pcoPsdMd": 1372.3025,
+      "pcoPsdInc": 89.2985,
+      "pcoPsdAzi": 271.6571,
+      "pcoPsdNorth": 189.7666,
+      "pcoPsdEast": -869.4111,
+      "pcoPsdTvd": 525.007,
+      "pcoHS": -6.2734,
+      "pcoRS": -6.1284,
+      "radialSeparation": 8.77,
+      "pcoMinDist": 8.1536,
+      "pcoErrTotal": 0.872,
+      "pcoErrNorth": 0.8707,
+      "pcoErrEast": 0.0247,
+      "pcoErrTvd": -0.0411,
+      "pcoMdBack": 966.3674,
+      "pcoIncBack": 86.9021,
+      "pcoAzBack": 272.3235,
+      "aziRefDiff": 2.2985,
+      "incRefDiff": 0.0966,
+      "aziDivCon": "Converging",
+      "incDivCon": "Converging",
+      "hsRefRef": "Below",
+      "rsRefRef": "Left"
+    },
+    {
+      "recordNumber": 4,
+      "fileId": "NGR_190428163506_0.csv",
+      "timestamp": "2019-04-28T16:35:00Z",
+      "mdMwd": 1176.74,
+      "azimuth": 268.7009,
+      "inclination": 89.1422,
+      "distance": 9.81,
+      "direction": 40.33,
+      "hField": 4.9,
+      "toolAngle": 3.22,
+      "qfcDis": 9.81,
+      "qfcDir": 40.33,
+      "qfcCFlag": "INVALID",
+      "qfcQFa": "Good",
+      "qfcQFr": "Invalid",
+      "qfcQFt": "Good",
+      "qfcInitGateOk": false,
+      "qfcExecOk": true,
+      "pcoToMd": 1176.74,
+      "pcoToInc": 89.1422,
+      "pcoToAzi": 270.6113,
+      "pcoToNorth": 183.7833,
+      "pcoToEast": -883.0702,
+      "pcoToTvd": 532.6685,
+      "pcoPsdMd": 1385.9139,
+      "pcoPsdInc": 89.1717,
+      "pcoPsdAzi": 271.4625,
+      "pcoPsdNorth": 190.133,
+      "pcoPsdEast": -883.0163,
+      "pcoPsdTvd": 525.1908,
+      "pcoHS": -7.4785,
+      "pcoRS": -6.3489,
+      "radialSeparation": 9.81,
+      "pcoMinDist": 8.641,
+      "pcoErrTotal": 1.2781,
+      "pcoErrNorth": 0.3962,
+      "pcoErrEast": -0.0075,
+      "pcoErrTvd": -1.2152,
+      "pcoMdBack": 980.0207,
+      "pcoIncBack": 89.8086,
+      "pcoAzBack": 269.5498,
+      "aziRefDiff": -0.8512,
+      "incRefDiff": -0.0294,
       "aziDivCon": "Diverging",
       "incDivCon": "Diverging",
-      "hsRefRef": "Above",
+      "hsRefRef": "Below",
+      "rsRefRef": "Left"
+    },
+    {
+      "recordNumber": 3,
+      "fileId": "NGR_190428154258_0.csv",
+      "timestamp": "2019-04-28T15:42:00Z",
+      "mdMwd": 1491.6,
+      "azimuth": 266.2433,
+      "inclination": 90.0951,
+      "distance": 8.97,
+      "direction": 54.84,
+      "hField": 1.4,
+      "toolAngle": 7.48,
+      "qfcDis": 8.97,
+      "qfcDir": 54.84,
+      "qfcCFlag": "INVALID",
+      "qfcQFa": "Good",
+      "qfcQFr": "Invalid",
+      "qfcQFt": "Good",
+      "qfcInitGateOk": false,
+      "qfcExecOk": true,
+      "pcoToMd": 1491.6,
+      "pcoToInc": 90.0951,
+      "pcoToAzi": 101.7565,
+      "pcoToNorth": 183.2449,
+      "pcoToEast": -900.2106,
+      "pcoToTvd": 530.5675,
+      "pcoPsdMd": 1402.9613,
+      "pcoPsdInc": 89.48,
+      "pcoPsdAzi": 271.57,
+      "pcoPsdNorth": 190.5768,
+      "pcoPsdEast": -900.0566,
+      "pcoPsdTvd": 525.4023,
+      "pcoHS": -5.1655,
+      "pcoRS": -7.3334,
+      "radialSeparation": 8.97,
+      "pcoMinDist": 218.9331,
+      "pcoErrTotal": 211.1676,
+      "pcoErrNorth": -210.4361,
+      "pcoErrEast": -5.5977,
+      "pcoErrTvd": 16.6456,
+      "pcoMdBack": 997.9985,
+      "pcoIncBack": 91.051,
+      "pcoAzBack": 149.9511,
+      "aziRefDiff": -169.8135,
+      "incRefDiff": 0.6151,
+      "aziDivCon": "Diverging",
+      "incDivCon": "Converging",
+      "hsRefRef": "Below",
+      "rsRefRef": "Left"
+    },
+    {
+      "recordNumber": 2,
+      "fileId": "NGR_190428153902_0.csv",
+      "timestamp": "2019-04-28T15:39:00Z",
+      "mdMwd": 1505.15,
+      "azimuth": 265.7846,
+      "inclination": 89.7912,
+      "distance": 12.54,
+      "direction": 58.44,
+      "hField": 1.1,
+      "toolAngle": 10.32,
+      "qfcDis": 12.54,
+      "qfcDir": 58.44,
+      "qfcCFlag": "INVALID",
+      "qfcQFa": "Good",
+      "qfcQFr": "Invalid",
+      "qfcQFt": "Marginal",
+      "qfcInitGateOk": false,
+      "qfcExecOk": true,
+      "pcoToMd": 1505.15,
+      "pcoToInc": 89.7912,
+      "pcoToAzi": 105.5944,
+      "pcoToNorth": 179.5462,
+      "pcoToEast": -887.0415,
+      "pcoToTvd": 531.8097,
+      "pcoPsdMd": 1389.7695,
+      "pcoPsdInc": 89.1551,
+      "pcoPsdAzi": 271.4376,
+      "pcoPsdNorth": 190.2305,
+      "pcoPsdEast": -886.8702,
+      "pcoPsdTvd": 525.2471,
+      "pcoHS": -6.5633,
+      "pcoRS": -10.6852,
+      "radialSeparation": 12.54,
+      "pcoMinDist": 11.5017,
+      "pcoErrTotal": 1.325,
+      "pcoErrNorth": 0.4957,
+      "pcoErrEast": -0.0057,
+      "pcoErrTvd": -1.2287,
+      "pcoMdBack": 1011.7835,
+      "pcoIncBack": 88.8867,
+      "pcoAzBack": 98.2561,
+      "aziRefDiff": -165.8432,
+      "incRefDiff": 0.6361,
+      "aziDivCon": "Diverging",
+      "incDivCon": "Converging",
+      "hsRefRef": "Below",
+      "rsRefRef": "Left"
+    },
+    {
+      "recordNumber": 1,
+      "fileId": "NGR_190428153326_0.csv",
+      "timestamp": "2019-04-28T15:33:00Z",
+      "mdMwd": 1518.67,
+      "azimuth": 264.4242,
+      "inclination": 88.0723,
+      "distance": 12.2,
+      "direction": 60.11,
+      "hField": 0.9,
+      "toolAngle": 11.27,
+      "qfcDis": 12.2,
+      "qfcDir": 60.11,
+      "qfcCFlag": "INVALID",
+      "qfcQFa": "Good",
+      "qfcQFr": "Invalid",
+      "qfcQFt": "Marginal",
+      "qfcInitGateOk": false,
+      "qfcExecOk": true,
+      "pcoToMd": 1518.67,
+      "pcoToInc": 88.0723,
+      "pcoToAzi": 91.0193,
+      "pcoToNorth": 179.3056,
+      "pcoToEast": -873.6672,
+      "pcoToTvd": 531.1371,
+      "pcoPsdMd": 1376.3473,
+      "pcoPsdInc": 89.2545,
+      "pcoPsdAzi": 271.5839,
+      "pcoPsdNorth": 189.8809,
+      "pcoPsdEast": -873.4539,
+      "pcoPsdTvd": 525.0579,
+      "pcoHS": -6.0797,
+      "pcoRS": -10.5772,
+      "radialSeparation": 12.2,
+      "pcoMinDist": 14.1422,
+      "pcoErrTotal": 1.9427,
+      "pcoErrNorth": -1.7075,
+      "pcoErrEast": -0.0352,
+      "pcoErrTvd": 0.9261,
+      "pcoMdBack": 1025.1769,
+      "pcoIncBack": 92.7807,
+      "pcoAzBack": 90.9892,
+      "aziRefDiff": 179.4355,
+      "incRefDiff": -1.1823,
+      "aziDivCon": "Converging",
+      "incDivCon": "Diverging",
+      "hsRefRef": "Below",
+      "rsRefRef": "Left"
+    },
+    {
+      "recordNumber": 11,
+      "fileId": "MANUAL_26-02-20_101656",
+      "timestamp": "2026-02-20T10:16:00Z",
+      "mdMwd": 2004.58,
+      "azimuth": 19.9542,
+      "inclination": 19.9542,
+      "distance": 20,
+      "direction": 20,
+      "hField": 20,
+      "toolAngle": 20,
+      "qfcDis": 7.79,
+      "qfcDir": 19.47,
+      "qfcCFlag": "EOP ERR",
+      "qfcQFa": "Good",
+      "qfcQFr": "Good",
+      "qfcQFt": "Bad",
+      "qfcInitGateOk": true,
+      "qfcExecOk": true,
+      "pcoToMd": 2004.58,
+      "pcoToInc": 19.9542,
+      "pcoToAzi": 89.8433,
+      "pcoToNorth": 180.3148,
+      "pcoToEast": -504.7588,
+      "pcoToTvd": 530.6321,
+      "pcoPsdMd": 1007.4677,
+      "pcoPsdInc": 89.6612,
+      "pcoPsdAzi": 271.1541,
+      "pcoPsdNorth": 182.9116,
+      "pcoPsdEast": -504.75,
+      "pcoPsdTvd": 523.2877,
+      "pcoHS": -7.3445,
+      "pcoRS": -2.5965,
+      "radialSeparation": 7.79,
+      "pcoMinDist": 276.9806,
+      "pcoErrTotal": 269.5727,
+      "pcoErrNorth": -5.6638,
+      "pcoErrEast": 1.48,
+      "pcoErrTvd": 269.5091,
+      "pcoMdBack": 1394.0887,
+      "pcoIncBack": 90.0264,
+      "pcoAzBack": 89.544,
+      "aziRefDiff": 178.6893,
+      "incRefDiff": -69.707,
+      "aziDivCon": "Converging",
+      "incDivCon": "Diverging",
+      "hsRefRef": "Below",
+      "rsRefRef": "Left"
+    },
+    {
+      "recordNumber": 12,
+      "fileId": "MANUAL_26-02-20_120351",
+      "timestamp": "2026-02-20T12:03:00Z",
+      "mdMwd": 3004.58,
+      "azimuth": 9.9542,
+      "inclination": 9.9542,
+      "distance": 10,
+      "direction": 10,
+      "hField": 10,
+      "toolAngle": 10,
+      "qfcDis": 10,
+      "qfcDir": 10,
+      "qfcCFlag": "EOP ERR",
+      "qfcQFa": "Good",
+      "qfcQFr": "Good",
+      "qfcQFt": "Good",
+      "qfcInitGateOk": true,
+      "qfcExecOk": true,
+      "pcoToMd": 3004.58,
+      "pcoToInc": 9.9542,
+      "pcoToAzi": 89.3458,
+      "pcoToNorth": 183.1059,
+      "pcoToEast": -260.3534,
+      "pcoToTvd": 530.6667,
+      "pcoPsdMd": 763.0081,
+      "pcoPsdInc": 89.2083,
+      "pcoPsdAzi": 271.2409,
+      "pcoPsdNorth": 184.8449,
+      "pcoPsdEast": -260.4519,
+      "pcoPsdTvd": 520.8196,
+      "pcoHS": -9.8481,
+      "pcoRS": -1.7365,
+      "radialSeparation": 10,
+      "pcoMinDist": 974.8165,
+      "pcoErrTotal": 964.965,
+      "pcoErrNorth": -1.3339,
+      "pcoErrEast": 13.3078,
+      "pcoErrTvd": 964.8723,
+      "pcoMdBack": 1638.5101,
+      "pcoIncBack": 89.9919,
+      "pcoAzBack": 89.3457,
+      "aziRefDiff": 178.1049,
+      "incRefDiff": -79.2541,
+      "aziDivCon": "Converging",
+      "incDivCon": "Diverging",
+      "hsRefRef": "Below",
       "rsRefRef": "Left"
     }
   ],
@@ -469,127 +910,664 @@
     "bearing": 285,
     "referenceWellProjections": [
       {
-        "hSection": 0,
-        "tvd": 0
+        "hSection": 13.449,
+        "tvd": 0.54
       },
       {
-        "hSection": 0,
-        "tvd": 500
+        "hSection": 13.449,
+        "tvd": 202.54
       },
       {
-        "hSection": 0,
-        "tvd": 1000
+        "hSection": 13.4409,
+        "tvd": 205.02
       },
       {
-        "hSection": 0,
-        "tvd": 1500
+        "hSection": 13.3702,
+        "tvd": 214.3196
       },
       {
-        "hSection": 0,
-        "tvd": 2000
+        "hSection": 13.286,
+        "tvd": 223.5192
       },
       {
-        "hSection": -4.3606,
-        "tvd": 2199.7462
+        "hSection": 13.1896,
+        "tvd": 232.8387
       },
       {
-        "hSection": -25.9428,
-        "tvd": 2394.4483
+        "hSection": 13.0995,
+        "tvd": 242.0383
       },
       {
-        "hSection": -79.2475,
-        "tvd": 2561.7917
+        "hSection": 12.9911,
+        "tvd": 251.3275
       },
       {
-        "hSection": -164.8642,
-        "tvd": 2660.6533
+        "hSection": 12.81,
+        "tvd": 259.0353
       },
       {
-        "hSection": -214.0421,
-        "tvd": 2677.9961
+        "hSection": 12.7531,
+        "tvd": 260.7043
       },
       {
-        "hSection": -263.9786,
-        "tvd": 2682.3566
+        "hSection": 12.197,
+        "tvd": 270.0668
       },
       {
-        "hSection": -288.9786,
-        "tvd": 2682.3566
+        "hSection": 11.2335,
+        "tvd": 279.3852
       },
       {
-        "hSection": -313.9786,
-        "tvd": 2682.3566
+        "hSection": 9.8825,
+        "tvd": 288.5812
       },
       {
-        "hSection": -338.9786,
-        "tvd": 2682.3566
+        "hSection": 8.1468,
+        "tvd": 297.6169
       },
       {
-        "hSection": -363.9786,
-        "tvd": 2682.3566
+        "hSection": 6.0053,
+        "tvd": 306.7477
       },
       {
-        "hSection": -388.9786,
-        "tvd": 2682.3566
+        "hSection": 3.5136,
+        "tvd": 315.7774
       },
       {
-        "hSection": -413.9786,
-        "tvd": 2682.3566
+        "hSection": 0.731,
+        "tvd": 324.6371
       },
       {
-        "hSection": -438.9786,
-        "tvd": 2682.3566
+        "hSection": -2.3303,
+        "tvd": 333.3916
       },
       {
-        "hSection": -463.9786,
-        "tvd": 2682.3566
+        "hSection": -5.6896,
+        "tvd": 342.0285
+      },
+      {
+        "hSection": -9.3872,
+        "tvd": 350.5231
+      },
+      {
+        "hSection": -13.4889,
+        "tvd": 358.8035
+      },
+      {
+        "hSection": -17.9945,
+        "tvd": 366.8749
+      },
+      {
+        "hSection": -22.7532,
+        "tvd": 374.7382
+      },
+      {
+        "hSection": -27.6746,
+        "tvd": 382.4783
+      },
+      {
+        "hSection": -32.83,
+        "tvd": 390.1563
+      },
+      {
+        "hSection": -38.1556,
+        "tvd": 397.5404
+      },
+      {
+        "hSection": -43.7275,
+        "tvd": 404.7052
+      },
+      {
+        "hSection": -49.5831,
+        "tvd": 411.6956
+      },
+      {
+        "hSection": -55.7112,
+        "tvd": 418.4198
+      },
+      {
+        "hSection": -62.1611,
+        "tvd": 424.8434
+      },
+      {
+        "hSection": -68.9276,
+        "tvd": 430.9643
+      },
+      {
+        "hSection": -75.9617,
+        "tvd": 436.7474
+      },
+      {
+        "hSection": -83.2373,
+        "tvd": 442.2338
+      },
+      {
+        "hSection": -90.7068,
+        "tvd": 447.4121
+      },
+      {
+        "hSection": -98.2037,
+        "tvd": 452.2742
+      },
+      {
+        "hSection": -105.7658,
+        "tvd": 457.0217
+      },
+      {
+        "hSection": -110.9773,
+        "tvd": 460.229
+      },
+      {
+        "hSection": -140.2766,
+        "tvd": 478.4665
+      },
+      {
+        "hSection": -163.2849,
+        "tvd": 489.8914
+      },
+      {
+        "hSection": -183.3359,
+        "tvd": 496.7067
+      },
+      {
+        "hSection": -194.4158,
+        "tvd": 500.5838
+      },
+      {
+        "hSection": -203.6454,
+        "tvd": 504.1663
+      },
+      {
+        "hSection": -213.2986,
+        "tvd": 508.1214
+      },
+      {
+        "hSection": -221.4252,
+        "tvd": 511.5924
+      },
+      {
+        "hSection": -228.4111,
+        "tvd": 514.8134
+      },
+      {
+        "hSection": -234.2218,
+        "tvd": 517.6103
+      },
+      {
+        "hSection": -239.0023,
+        "tvd": 519.5385
+      },
+      {
+        "hSection": -241.2521,
+        "tvd": 520.1946
+      },
+      {
+        "hSection": -244.125,
+        "tvd": 520.6869
+      },
+      {
+        "hSection": -247.0361,
+        "tvd": 520.8574
+      },
+      {
+        "hSection": -249.7877,
+        "tvd": 521.0018
+      },
+      {
+        "hSection": -251.7911,
+        "tvd": 521.1355
+      },
+      {
+        "hSection": -254.2572,
+        "tvd": 521.1537
+      },
+      {
+        "hSection": -256.0974,
+        "tvd": 521.1124
+      },
+      {
+        "hSection": -258.1627,
+        "tvd": 521.1612
+      },
+      {
+        "hSection": -260.2288,
+        "tvd": 521.3348
+      },
+      {
+        "hSection": -261.8683,
+        "tvd": 521.533
+      },
+      {
+        "hSection": -263.601,
+        "tvd": 521.7745
+      },
+      {
+        "hSection": -265.436,
+        "tvd": 522.0271
+      },
+      {
+        "hSection": -267.2681,
+        "tvd": 522.2433
+      },
+      {
+        "hSection": -269.091,
+        "tvd": 522.3968
+      },
+      {
+        "hSection": -271.7969,
+        "tvd": 522.4899
+      },
+      {
+        "hSection": -274.3529,
+        "tvd": 522.4623
+      },
+      {
+        "hSection": -277.0183,
+        "tvd": 522.4419
+      },
+      {
+        "hSection": -279.531,
+        "tvd": 522.5516
+      },
+      {
+        "hSection": -281.8438,
+        "tvd": 522.7167
+      },
+      {
+        "hSection": -284.2303,
+        "tvd": 522.8435
+      },
+      {
+        "hSection": -286.9825,
+        "tvd": 522.9752
+      },
+      {
+        "hSection": -289.4526,
+        "tvd": 523.1561
+      },
+      {
+        "hSection": -291.9763,
+        "tvd": 523.3707
+      },
+      {
+        "hSection": -294.3575,
+        "tvd": 523.4719
+      },
+      {
+        "hSection": -296.8263,
+        "tvd": 523.4533
+      },
+      {
+        "hSection": -299.6938,
+        "tvd": 523.3462
+      },
+      {
+        "hSection": -301.9554,
+        "tvd": 523.2541
+      },
+      {
+        "hSection": -304.5027,
+        "tvd": 523.2366
+      },
+      {
+        "hSection": -307.3492,
+        "tvd": 523.2883
+      },
+      {
+        "hSection": -309.7793,
+        "tvd": 523.3286
+      },
+      {
+        "hSection": -312.4397,
+        "tvd": 523.3625
+      },
+      {
+        "hSection": -315.0317,
+        "tvd": 523.4392
+      },
+      {
+        "hSection": -317.5527,
+        "tvd": 523.5799
+      },
+      {
+        "hSection": -320.0278,
+        "tvd": 523.7369
+      },
+      {
+        "hSection": -322.4462,
+        "tvd": 523.8064
+      },
+      {
+        "hSection": -324.7798,
+        "tvd": 523.7576
+      },
+      {
+        "hSection": -327.0468,
+        "tvd": 523.6901
+      },
+      {
+        "hSection": -329.2276,
+        "tvd": 523.6774
+      },
+      {
+        "hSection": -331.4096,
+        "tvd": 523.726
+      },
+      {
+        "hSection": -333.5375,
+        "tvd": 523.8316
+      },
+      {
+        "hSection": -335.8637,
+        "tvd": 523.9609
+      },
+      {
+        "hSection": -338.2821,
+        "tvd": 524.0727
+      },
+      {
+        "hSection": -340.6859,
+        "tvd": 524.1547
+      },
+      {
+        "hSection": -343.084,
+        "tvd": 524.1459
+      },
+      {
+        "hSection": -345.536,
+        "tvd": 524.0373
+      },
+      {
+        "hSection": -348.0555,
+        "tvd": 523.9301
+      },
+      {
+        "hSection": -350.6267,
+        "tvd": 523.9263
+      },
+      {
+        "hSection": -353.4367,
+        "tvd": 524.0056
+      },
+      {
+        "hSection": -356.1672,
+        "tvd": 524.0369
+      },
+      {
+        "hSection": -359.1463,
+        "tvd": 523.9393
+      },
+      {
+        "hSection": -361.9405,
+        "tvd": 523.7597
+      },
+      {
+        "hSection": -364.5163,
+        "tvd": 523.5703
+      },
+      {
+        "hSection": -367.0129,
+        "tvd": 523.3908
+      },
+      {
+        "hSection": -369.5913,
+        "tvd": 523.3073
+      },
+      {
+        "hSection": -372.3176,
+        "tvd": 523.3597
+      },
+      {
+        "hSection": -374.7103,
+        "tvd": 523.446
+      },
+      {
+        "hSection": -377.8407,
+        "tvd": 523.5796
+      },
+      {
+        "hSection": -380.4744,
+        "tvd": 523.7038
+      },
+      {
+        "hSection": -383.2219,
+        "tvd": 523.8409
+      },
+      {
+        "hSection": -386.0431,
+        "tvd": 523.9909
+      },
+      {
+        "hSection": -388.8639,
+        "tvd": 524.1334
+      },
+      {
+        "hSection": -391.668,
+        "tvd": 524.2408
+      },
+      {
+        "hSection": -394.3959,
+        "tvd": 524.3189
+      },
+      {
+        "hSection": -397.1821,
+        "tvd": 524.4398
+      },
+      {
+        "hSection": -400.2714,
+        "tvd": 524.6192
+      },
+      {
+        "hSection": -403.026,
+        "tvd": 524.7665
+      },
+      {
+        "hSection": -406.0435,
+        "tvd": 524.9076
+      },
+      {
+        "hSection": -408.4087,
+        "tvd": 525.0107
+      },
+      {
+        "hSection": -410.9866,
+        "tvd": 525.1298
+      },
+      {
+        "hSection": -413.6214,
+        "tvd": 525.2646
+      },
+      {
+        "hSection": -416.2447,
+        "tvd": 525.3766
+      },
+      {
+        "hSection": -418.9482,
+        "tvd": 525.4627
+      },
+      {
+        "hSection": -421.7397,
+        "tvd": 525.4915
+      },
+      {
+        "hSection": -424.4763,
+        "tvd": 525.4678
+      },
+      {
+        "hSection": -426.6519,
+        "tvd": 525.4551
+      },
+      {
+        "hSection": -429.4266,
+        "tvd": 525.4338
+      },
+      {
+        "hSection": -432.2782,
+        "tvd": 525.4097
+      },
+      {
+        "hSection": -434.6183,
+        "tvd": 525.4081
+      },
+      {
+        "hSection": -436.9002,
+        "tvd": 525.4025
+      },
+      {
+        "hSection": -439.202,
+        "tvd": 525.3557
+      },
+      {
+        "hSection": -441.6345,
+        "tvd": 525.2984
+      },
+      {
+        "hSection": -444.1046,
+        "tvd": 525.2837
+      },
+      {
+        "hSection": -446.8209,
+        "tvd": 525.2888
+      },
+      {
+        "hSection": -449.4905,
+        "tvd": 525.2888
+      },
+      {
+        "hSection": -452.0699,
+        "tvd": 525.2534
+      },
+      {
+        "hSection": -454.9014,
+        "tvd": 525.1956
+      },
+      {
+        "hSection": -456.9959,
+        "tvd": 525.1922
+      },
+      {
+        "hSection": -459.3439,
+        "tvd": 525.2601
+      },
+      {
+        "hSection": -461.6694,
+        "tvd": 525.3885
+      },
+      {
+        "hSection": -463.8052,
+        "tvd": 525.5218
+      },
+      {
+        "hSection": -466.1049,
+        "tvd": 525.6171
+      },
+      {
+        "hSection": -468.3031,
+        "tvd": 525.6695
+      },
+      {
+        "hSection": -470.7298,
+        "tvd": 525.7038
+      },
+      {
+        "hSection": -473.3645,
+        "tvd": 525.714
+      },
+      {
+        "hSection": -481.1989,
+        "tvd": 525.6046
       }
     ],
     "solutionProjections": [
       {
-        "recordNumber": 1,
-        "hSection": 0,
-        "tvd": 0
+        "recordNumber": 16,
+        "hSection": -199.7409,
+        "tvd": 524.1436
       },
       {
-        "recordNumber": 2,
-        "hSection": -8.7772,
-        "tvd": 0.0721
+        "recordNumber": 18,
+        "hSection": -210.2163,
+        "tvd": 523.0427
       },
       {
-        "recordNumber": 3,
-        "hSection": -19.6139,
-        "tvd": 0.0819
+        "recordNumber": 15,
+        "hSection": -215.6941,
+        "tvd": 530.7467
       },
       {
-        "recordNumber": 4,
-        "hSection": -19.821,
-        "tvd": 0.1384
+        "recordNumber": 17,
+        "hSection": -223.8718,
+        "tvd": 553.6443
       },
       {
-        "recordNumber": 6,
-        "hSection": -19.8369,
-        "tvd": 0.2677
-      },
-      {
-        "recordNumber": 7,
-        "hSection": -7.1667,
-        "tvd": 0.2494
-      },
-      {
-        "recordNumber": 8,
-        "hSection": -11.8624,
-        "tvd": 0.3324
+        "recordNumber": 19,
+        "hSection": -260.688,
+        "tvd": 548.4281
       },
       {
         "recordNumber": 9,
-        "hSection": -17.667,
-        "tvd": 0.5253
+        "hSection": -311.1018,
+        "tvd": 532.5668
       },
       {
-        "recordNumber": 10,
-        "hSection": -4.2992,
-        "tvd": 0.5846
+        "recordNumber": 8,
+        "hSection": -315.4767,
+        "tvd": 531.3284
+      },
+      {
+        "recordNumber": 7,
+        "hSection": -319.3683,
+        "tvd": 531.1485
+      },
+      {
+        "recordNumber": 13,
+        "hSection": -316.9674,
+        "tvd": 542.5872
+      },
+      {
+        "recordNumber": 20,
+        "hSection": -296.8842,
+        "tvd": 566.4837
+      },
+      {
+        "recordNumber": 6,
+        "hSection": -398.2393,
+        "tvd": 531.169
+      },
+      {
+        "recordNumber": 5,
+        "hSection": -402.4274,
+        "tvd": 531.2799
+      },
+      {
+        "recordNumber": 4,
+        "hSection": -406.0765,
+        "tvd": 532.6685
+      },
+      {
+        "recordNumber": 3,
+        "hSection": -409.9926,
+        "tvd": 530.5675
+      },
+      {
+        "recordNumber": 2,
+        "hSection": -403.0116,
+        "tvd": 531.8097
+      },
+      {
+        "recordNumber": 1,
+        "hSection": -399.3176,
+        "tvd": 531.1371
+      },
+      {
+        "recordNumber": 11,
+        "hSection": -304.8119,
+        "tvd": 530.6321
+      },
+      {
+        "recordNumber": 12,
+        "hSection": -244.2511,
+        "tvd": 530.6667
       }
     ]
   }

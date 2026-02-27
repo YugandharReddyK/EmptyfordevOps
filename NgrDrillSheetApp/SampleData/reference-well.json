@@ -1,28 +1,722 @@
 {
   "description": "Sample reference well – vertical to horizontal injector, 285° azimuth, lands at ~3000m MD.",
   "headerText": "Well: REF-INJ-001\nField: Sample Basin\nDatum: MSL\nUnits: Metres",
-  "tieOnNorth": 0.0,
-  "tieOnEast": 0.0,
-  "tieOnTVD": 0.0,
+  "tieOnNorth": 152.67,
+  "tieOnEast": -161.20,
+  "tieOnTVD": 492.60,
+  "refWellOriginNorth": -5.40,
+  "refWellOriginEast": 31.81,
+  "refWellOriginTVD": 0.54,
   "stations": [
-    { "measuredDepth":    0.00, "inclination":  0.00, "azimuth":   0.00 },
-    { "measuredDepth":  500.00, "inclination":  0.00, "azimuth":   0.00 },
-    { "measuredDepth": 1000.00, "inclination":  0.00, "azimuth":   0.00 },
-    { "measuredDepth": 1500.00, "inclination":  0.00, "azimuth":   0.00 },
-    { "measuredDepth": 2000.00, "inclination":  0.00, "azimuth":   0.00 },
-    { "measuredDepth": 2200.00, "inclination":  5.00, "azimuth": 285.00 },
-    { "measuredDepth": 2400.00, "inclination": 20.00, "azimuth": 285.00 },
-    { "measuredDepth": 2600.00, "inclination": 45.00, "azimuth": 285.00 },
-    { "measuredDepth": 2800.00, "inclination": 75.00, "azimuth": 285.00 },
-    { "measuredDepth": 2900.00, "inclination": 85.00, "azimuth": 285.00 },
-    { "measuredDepth": 3000.00, "inclination": 90.00, "azimuth": 285.00 },
-    { "measuredDepth": 3050.00, "inclination": 90.00, "azimuth": 285.00 },
-    { "measuredDepth": 3100.00, "inclination": 90.00, "azimuth": 285.00 },
-    { "measuredDepth": 3150.00, "inclination": 90.00, "azimuth": 285.00 },
-    { "measuredDepth": 3200.00, "inclination": 90.00, "azimuth": 285.00 },
-    { "measuredDepth": 3250.00, "inclination": 90.00, "azimuth": 285.00 },
-    { "measuredDepth": 3300.00, "inclination": 90.00, "azimuth": 285.00 },
-    { "measuredDepth": 3350.00, "inclination": 90.00, "azimuth": 285.00 },
-    { "measuredDepth": 3400.00, "inclination": 90.00, "azimuth": 285.00 }
+    {
+      "measuredDepth": 0,
+      "inclination": 0,
+      "azimuth": 0
+    },
+    {
+      "measuredDepth": 202,
+      "inclination": 0,
+      "azimuth": 326
+    },
+    {
+      "measuredDepth": 204.48,
+      "inclination": 0.5,
+      "azimuth": 25.97
+    },
+    {
+      "measuredDepth": 213.78,
+      "inclination": 0.5,
+      "azimuth": 354.72
+    },
+    {
+      "measuredDepth": 222.98,
+      "inclination": 0.56,
+      "azimuth": 351.84
+    },
+    {
+      "measuredDepth": 232.3,
+      "inclination": 0.63,
+      "azimuth": 345.32
+    },
+    {
+      "measuredDepth": 241.5,
+      "inclination": 0.56,
+      "azimuth": 13.47
+    },
+    {
+      "measuredDepth": 250.79,
+      "inclination": 0.88,
+      "azimuth": 1.22
+    },
+    {
+      "measuredDepth": 258.5,
+      "inclination": 1.85,
+      "azimuth": 348.63
+    },
+    {
+      "measuredDepth": 260.17,
+      "inclination": 2.06,
+      "azimuth": 347.47
+    },
+    {
+      "measuredDepth": 269.55,
+      "inclination": 4.76,
+      "azimuth": 339.85
+    },
+    {
+      "measuredDepth": 278.92,
+      "inclination": 7.2,
+      "azimuth": 333.85
+    },
+    {
+      "measuredDepth": 288.22,
+      "inclination": 9.89,
+      "azimuth": 332.23
+    },
+    {
+      "measuredDepth": 297.43,
+      "inclination": 12.39,
+      "azimuth": 332.35
+    },
+    {
+      "measuredDepth": 306.82,
+      "inclination": 14.57,
+      "azimuth": 333.73
+    },
+    {
+      "measuredDepth": 316.2,
+      "inclination": 16.82,
+      "azimuth": 334.48
+    },
+    {
+      "measuredDepth": 325.5,
+      "inclination": 18.57,
+      "azimuth": 335.23
+    },
+    {
+      "measuredDepth": 334.79,
+      "inclination": 20.51,
+      "azimuth": 335.1
+    },
+    {
+      "measuredDepth": 344.08,
+      "inclination": 22.7,
+      "azimuth": 333.35
+    },
+    {
+      "measuredDepth": 353.38,
+      "inclination": 25.32,
+      "azimuth": 332.23
+    },
+    {
+      "measuredDepth": 362.67,
+      "inclination": 28.57,
+      "azimuth": 331.85
+    },
+    {
+      "measuredDepth": 371.98,
+      "inclination": 31.2,
+      "azimuth": 330.73
+    },
+    {
+      "measuredDepth": 381.26,
+      "inclination": 32.95,
+      "azimuth": 329.23
+    },
+    {
+      "measuredDepth": 390.55,
+      "inclination": 34.2,
+      "azimuth": 327.48
+    },
+    {
+      "measuredDepth": 399.95,
+      "inclination": 36.26,
+      "azimuth": 326.46
+    },
+    {
+      "measuredDepth": 409.24,
+      "inclination": 38.45,
+      "azimuth": 325.35
+    },
+    {
+      "measuredDepth": 418.54,
+      "inclination": 40.76,
+      "azimuth": 324.73
+    },
+    {
+      "measuredDepth": 427.93,
+      "inclination": 43.01,
+      "azimuth": 323.48
+    },
+    {
+      "measuredDepth": 437.33,
+      "inclination": 45.64,
+      "azimuth": 324.35
+    },
+    {
+      "measuredDepth": 446.73,
+      "inclination": 48.14,
+      "azimuth": 325.73
+    },
+    {
+      "measuredDepth": 456.14,
+      "inclination": 50.7,
+      "azimuth": 326.73
+    },
+    {
+      "measuredDepth": 465.53,
+      "inclination": 53.26,
+      "azimuth": 327.23
+    },
+    {
+      "measuredDepth": 474.93,
+      "inclination": 55.32,
+      "azimuth": 327.6
+    },
+    {
+      "measuredDepth": 484.33,
+      "inclination": 57.82,
+      "azimuth": 326.85
+    },
+    {
+      "measuredDepth": 493.63,
+      "inclination": 59.14,
+      "azimuth": 325.23
+    },
+    {
+      "measuredDepth": 503.03,
+      "inclination": 60.2,
+      "azimuth": 322.35
+    },
+    {
+      "measuredDepth": 509.56,
+      "inclination": 60.97,
+      "azimuth": 320.43
+    },
+    {
+      "measuredDepth": 548.72,
+      "inclination": 63.77,
+      "azimuth": 305.73
+    },
+    {
+      "measuredDepth": 581.7,
+      "inclination": 75.64,
+      "azimuth": 300.85
+    },
+    {
+      "measuredDepth": 613.37,
+      "inclination": 79.57,
+      "azimuth": 290.22
+    },
+    {
+      "measuredDepth": 632.81,
+      "inclination": 77.42,
+      "azimuth": 290.92
+    },
+    {
+      "measuredDepth": 649.49,
+      "inclination": 77.78,
+      "azimuth": 288.11
+    },
+    {
+      "measuredDepth": 668.67,
+      "inclination": 78.43,
+      "azimuth": 283.82
+    },
+    {
+      "measuredDepth": 687.16,
+      "inclination": 79.94,
+      "azimuth": 279.37
+    },
+    {
+      "measuredDepth": 705.46,
+      "inclination": 79.79,
+      "azimuth": 276.27
+    },
+    {
+      "measuredDepth": 722.61,
+      "inclination": 81.44,
+      "azimuth": 273.91
+    },
+    {
+      "measuredDepth": 738.51,
+      "inclination": 84.63,
+      "azimuth": 271.37
+    },
+    {
+      "measuredDepth": 746.51,
+      "inclination": 85.96,
+      "azimuth": 271.41
+    },
+    {
+      "measuredDepth": 756.57,
+      "inclination": 88.43,
+      "azimuth": 271.82
+    },
+    {
+      "measuredDepth": 766.91,
+      "inclination": 89.68,
+      "azimuth": 270.89
+    },
+    {
+      "measuredDepth": 777.25,
+      "inclination": 88.72,
+      "azimuth": 269.98
+    },
+    {
+      "measuredDepth": 785.31,
+      "inclination": 89.38,
+      "azimuth": 268.81
+    },
+    {
+      "measuredDepth": 795.79,
+      "inclination": 90.42,
+      "azimuth": 268.41
+    },
+    {
+      "measuredDepth": 803.56,
+      "inclination": 90.19,
+      "azimuth": 268.99
+    },
+    {
+      "measuredDepth": 812.44,
+      "inclination": 89.18,
+      "azimuth": 267.91
+    },
+    {
+      "measuredDepth": 822.29,
+      "inclination": 88.8,
+      "azimuth": 266.31
+    },
+    {
+      "measuredDepth": 831.23,
+      "inclination": 88.66,
+      "azimuth": 264.83
+    },
+    {
+      "measuredDepth": 841.08,
+      "inclination": 88.53,
+      "azimuth": 265.44
+    },
+    {
+      "measuredDepth": 850.51,
+      "inclination": 88.4,
+      "azimuth": 267.01
+    },
+    {
+      "measuredDepth": 858.85,
+      "inclination": 88.63,
+      "azimuth": 268.38
+    },
+    {
+      "measuredDepth": 866.4,
+      "inclination": 89.04,
+      "azimuth": 269.57
+    },
+    {
+      "measuredDepth": 876.46,
+      "inclination": 89.9,
+      "azimuth": 271.64
+    },
+    {
+      "measuredDepth": 885.23,
+      "inclination": 90.46,
+      "azimuth": 272.25
+    },
+    {
+      "measuredDepth": 894.59,
+      "inclination": 89.79,
+      "azimuth": 270.84
+    },
+    {
+      "measuredDepth": 904.19,
+      "inclination": 88.9,
+      "azimuth": 269.51
+    },
+    {
+      "measuredDepth": 913.33,
+      "inclination": 89.03,
+      "azimuth": 269.81
+    },
+    {
+      "measuredDepth": 922.41,
+      "inclination": 89.37,
+      "azimuth": 270.67
+    },
+    {
+      "measuredDepth": 932.61,
+      "inclination": 89.15,
+      "azimuth": 270.64
+    },
+    {
+      "measuredDepth": 941.82,
+      "inclination": 88.6,
+      "azimuth": 270.48
+    },
+    {
+      "measuredDepth": 951.21,
+      "inclination": 88.78,
+      "azimuth": 270.71
+    },
+    {
+      "measuredDepth": 959.86,
+      "inclination": 89.88,
+      "azimuth": 271.25
+    },
+    {
+      "measuredDepth": 968.72,
+      "inclination": 90.36,
+      "azimuth": 271.11
+    },
+    {
+      "measuredDepth": 979.21,
+      "inclination": 90.81,
+      "azimuth": 270.62
+    },
+    {
+      "measuredDepth": 987.66,
+      "inclination": 90.44,
+      "azimuth": 270.43
+    },
+    {
+      "measuredDepth": 997.18,
+      "inclination": 89.77,
+      "azimuth": 270.61
+    },
+    {
+      "measuredDepth": 1007.58,
+      "inclination": 89.66,
+      "azimuth": 271.16
+    },
+    {
+      "measuredDepth": 1016.28,
+      "inclination": 89.81,
+      "azimuth": 271.28
+    },
+    {
+      "measuredDepth": 1025.77,
+      "inclination": 89.78,
+      "azimuth": 271.28
+    },
+    {
+      "measuredDepth": 1035.12,
+      "inclination": 89.28,
+      "azimuth": 270.91
+    },
+    {
+      "measuredDepth": 1044.49,
+      "inclination": 89,
+      "azimuth": 270.31
+    },
+    {
+      "measuredDepth": 1053.91,
+      "inclination": 89.09,
+      "azimuth": 270.16
+    },
+    {
+      "measuredDepth": 1063.17,
+      "inclination": 90.05,
+      "azimuth": 270.12
+    },
+    {
+      "measuredDepth": 1072.33,
+      "inclination": 90.56,
+      "azimuth": 269.4
+    },
+    {
+      "measuredDepth": 1081.54,
+      "inclination": 90.28,
+      "azimuth": 269.1
+    },
+    {
+      "measuredDepth": 1090.65,
+      "inclination": 89.88,
+      "azimuth": 268.6
+    },
+    {
+      "measuredDepth": 1100.09,
+      "inclination": 89.53,
+      "azimuth": 268.13
+    },
+    {
+      "measuredDepth": 1109.33,
+      "inclination": 89.16,
+      "azimuth": 268.5
+    },
+    {
+      "measuredDepth": 1118.95,
+      "inclination": 89.3,
+      "azimuth": 269.49
+    },
+    {
+      "measuredDepth": 1128.44,
+      "inclination": 89.35,
+      "azimuth": 270.04
+    },
+    {
+      "measuredDepth": 1137.65,
+      "inclination": 89.63,
+      "azimuth": 270.22
+    },
+    {
+      "measuredDepth": 1146.77,
+      "inclination": 90.48,
+      "azimuth": 270.27
+    },
+    {
+      "measuredDepth": 1156.06,
+      "inclination": 90.86,
+      "azimuth": 270.34
+    },
+    {
+      "measuredDepth": 1165.16,
+      "inclination": 90.49,
+      "azimuth": 271.81
+    },
+    {
+      "measuredDepth": 1173.78,
+      "inclination": 89.56,
+      "azimuth": 272.9
+    },
+    {
+      "measuredDepth": 1182.96,
+      "inclination": 89.45,
+      "azimuth": 272.75
+    },
+    {
+      "measuredDepth": 1192.15,
+      "inclination": 90.16,
+      "azimuth": 271.82
+    },
+    {
+      "measuredDepth": 1202.6,
+      "inclination": 90.91,
+      "azimuth": 271.31
+    },
+    {
+      "measuredDepth": 1212.59,
+      "inclination": 91.15,
+      "azimuth": 271.18
+    },
+    {
+      "measuredDepth": 1221.83,
+      "inclination": 91.2,
+      "azimuth": 271.2
+    },
+    {
+      "measuredDepth": 1230.81,
+      "inclination": 91.09,
+      "azimuth": 271.09
+    },
+    {
+      "measuredDepth": 1240.1,
+      "inclination": 89.94,
+      "azimuth": 271.14
+    },
+    {
+      "measuredDepth": 1249.94,
+      "inclination": 89.45,
+      "azimuth": 271.03
+    },
+    {
+      "measuredDepth": 1258.54,
+      "inclination": 89.4,
+      "azimuth": 271.28
+    },
+    {
+      "measuredDepth": 1269.4,
+      "inclination": 89.19,
+      "azimuth": 272.23
+    },
+    {
+      "measuredDepth": 1278.24,
+      "inclination": 89.2,
+      "azimuth": 272.44
+    },
+    {
+      "measuredDepth": 1287.32,
+      "inclination": 89.07,
+      "azimuth": 272.79
+    },
+    {
+      "measuredDepth": 1296.56,
+      "inclination": 89.07,
+      "azimuth": 272.77
+    },
+    {
+      "measuredDepth": 1305.89,
+      "inclination": 89.18,
+      "azimuth": 272.43
+    },
+    {
+      "measuredDepth": 1315.36,
+      "inclination": 89.52,
+      "azimuth": 272.02
+    },
+    {
+      "measuredDepth": 1324.68,
+      "inclination": 89.52,
+      "azimuth": 272.02
+    },
+    {
+      "measuredDepth": 1334.17,
+      "inclination": 89.02,
+      "azimuth": 272.13
+    },
+    {
+      "measuredDepth": 1344.66,
+      "inclination": 89.02,
+      "azimuth": 272.13
+    },
+    {
+      "measuredDepth": 1354.04,
+      "inclination": 89.18,
+      "azimuth": 272.03
+    },
+    {
+      "measuredDepth": 1364.4,
+      "inclination": 89.26,
+      "azimuth": 271.84
+    },
+    {
+      "measuredDepth": 1372.61,
+      "inclination": 89.3,
+      "azimuth": 271.65
+    },
+    {
+      "measuredDepth": 1381.65,
+      "inclination": 89.19,
+      "azimuth": 271.49
+    },
+    {
+      "measuredDepth": 1390.95,
+      "inclination": 89.15,
+      "azimuth": 271.43
+    },
+    {
+      "measuredDepth": 1400.19,
+      "inclination": 89.46,
+      "azimuth": 271.56
+    },
+    {
+      "measuredDepth": 1409.67,
+      "inclination": 89.5,
+      "azimuth": 271.58
+    },
+    {
+      "measuredDepth": 1419.39,
+      "inclination": 90.16,
+      "azimuth": 271.8
+    },
+    {
+      "measuredDepth": 1428.75,
+      "inclination": 90.13,
+      "azimuth": 272.2
+    },
+    {
+      "measuredDepth": 1436.06,
+      "inclination": 90.07,
+      "azimuth": 272.43
+    },
+    {
+      "measuredDepth": 1445.43,
+      "inclination": 90.19,
+      "azimuth": 272.02
+    },
+    {
+      "measuredDepth": 1455.67,
+      "inclination": 90.08,
+      "azimuth": 270.32
+    },
+    {
+      "measuredDepth": 1464.78,
+      "inclination": 89.94,
+      "azimuth": 269.45
+    },
+    {
+      "measuredDepth": 1473.94,
+      "inclination": 90.13,
+      "azimuth": 269.4
+    },
+    {
+      "measuredDepth": 1483.18,
+      "inclination": 90.45,
+      "azimuth": 269.45
+    },
+    {
+      "measuredDepth": 1492.84,
+      "inclination": 90.23,
+      "azimuth": 269.72
+    },
+    {
+      "measuredDepth": 1502.21,
+      "inclination": 89.95,
+      "azimuth": 270.85
+    },
+    {
+      "measuredDepth": 1512.05,
+      "inclination": 89.99,
+      "azimuth": 271.2
+    },
+    {
+      "measuredDepth": 1521.63,
+      "inclination": 90.01,
+      "azimuth": 271.16
+    },
+    {
+      "measuredDepth": 1530.87,
+      "inclination": 90.43,
+      "azimuth": 271.26
+    },
+    {
+      "measuredDepth": 1541.05,
+      "inclination": 90.22,
+      "azimuth": 271.04
+    },
+    {
+      "measuredDepth": 1548.93,
+      "inclination": 89.83,
+      "azimuth": 269.79
+    },
+    {
+      "measuredDepth": 1558.42,
+      "inclination": 89.35,
+      "azimuth": 268.86
+    },
+    {
+      "measuredDepth": 1568.3,
+      "inclination": 89.16,
+      "azimuth": 268.37
+    },
+    {
+      "measuredDepth": 1577.5,
+      "inclination": 89.18,
+      "azimuth": 268.48
+    },
+    {
+      "measuredDepth": 1586.99,
+      "inclination": 89.67,
+      "azimuth": 269.57
+    },
+    {
+      "measuredDepth": 1595.57,
+      "inclination": 89.63,
+      "azimuth": 270.12
+    },
+    {
+      "measuredDepth": 1604.72,
+      "inclination": 89.94,
+      "azimuth": 270.64
+    },
+    {
+      "measuredDepth": 1614.49,
+      "inclination": 89.94,
+      "azimuth": 270.65
+    },
+    {
+      "measuredDepth": 1643,
+      "inclination": 90.5,
+      "azimuth": 271.25
+    }
   ]
 }
