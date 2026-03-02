@@ -109,17 +109,17 @@ class Program
             Console.WriteLine(
             $"{sol.RecordNumber,-5} " +
             $"{sol.MdMwd,8:F2} " +
-            //$"{sol.QfcQFa.ToDisplayString(),-9} " +
-            //$"{sol.QfcQFr.ToDisplayString(),-9} " +
-            //$"{sol.QfcCFlag.ToCorrectionString(),-9} " +
-            //$"{sol.PcoHS,8:F2} " +
-            //$"{sol.PcoRS,8:F2} " +
-            // $"{sol.PcoToMd,8:F2} " +
+            $"{sol.QfcQFa.ToDisplayString(),-9} " +
+            $"{sol.QfcQFr.ToDisplayString(),-9} " +
+            $"{sol.QfcCFlag.ToCorrectionString(),-9} " +
+            $"{sol.PcoHS,8:F2} " +
+            $"{sol.PcoRS,8:F2} " +
+            //$"{sol.PcoToMd,8:F2} " +
             //$"{sol.PcoToInc,8:F2} " +
-            //$"{sol.PcoToAzi,8:F2} " +
+            //$"{sol.PcoToAzi,8:F2} "+
             //$"{sol.PcoToNorth,8:F2} " +
             //$"{sol.PcoToEast,8:F2} " +
-            //$"{sol.PcoToTvd,8:F2} " +
+            //$"{sol.PcoToTvd,8:F2} "+
             //$"{sol.PcoPsdMd,8:F2} " +
             //$"{sol.PcoPsdInc,8:F2} " +
             //$"{sol.PcoPsdAzi,8:F2} " +
@@ -130,16 +130,16 @@ class Program
             //$"{sol.PcoErrTotal,8:F2} " +
             //$"{sol.PcoErrNorth,8:F2} " +
             //$"{sol.PcoErrEast,8:F2} " +
-            //$"{sol.PcoErrTvd,8:F2} " +
-            //$"{sol.PcoMdBack,8:F2} " +
+            //$"{sol.PcoErrTvd,8:F2} "+
+            $"{sol.PcoMdBack,8:F2} " +
             //$"{sol.PcoIncBack,8:F2} " +
-            //$"{sol.PcoAzBack,8:F2} " +
+            //$"{sol.PcoAzBack,8:F2} "+
             //$"{sol.AziRefDiff,8:F2} " +
             //$"{sol.IncRefDiff,8:F2} " +
             $"{sol.AziDivCon,-12} " +
-            $"{sol.IncDivCon,-12} " +
-            $"{sol.HsRefRef,-12} " +
-            $"{sol.RsRefRef,-12}"
+            $"{sol.IncDivCon,-12} "
+            //$"{sol.HsRefRef,-12} "+
+            //$"{sol.RsRefRef,-12}"
             );
         }
     }
